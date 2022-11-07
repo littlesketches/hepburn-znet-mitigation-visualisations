@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hepburn data vis</title>
+		<meta name="description" content="Menu for experiment data vis work for Hepburn ZNET" />
+		<meta name="author" content="Little Sketches" />
+		<link href="https://fonts.googleapis.com/css?family=Kanit:700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+		<link rel="stylesheet" type="text/css" href="css/revealer.css" />
+
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body class="demo-3 loading">
+		<main>
+
+			<div class="grid grid--layout-1 grid--current">
+				<div class="grid__item" data-delay="150" data-direction="ttb"><a class = "link-text"href="./baselineWardMap.html">baseline by wards</a></div>
+				<div class="grid__item" data-delay="300" data-direction="ttb"></div>
+				<div class="grid__item" data-delay="200" data-direction="ttb"><a class = "link-text"href="./energyBump.html">energy bump chart</a></div>
+				<div class="grid__item" data-delay="40" data-direction="ttb"><a class = "link-text"href="./bubbles/"><br><br>emissions mix</a></div>
+				<div class="grid__item" data-delay="70" data-direction="ttb"><a class = "link-text"href="./maccReport.html">emissions cost curve</a></div>
+				<div class="grid__item" data-delay="70" data-direction="ttb"><a class = "link-text" href="./activitySankeyReport.html">emissions activity flows</a></div>
+				<div class="grid__item" data-delay="70" data-direction="ttb"><a class = "link-text"href="./emissionsTransition.html"><br><br><br><br><br>emissions transition plan</a></div>
+				<div class="grid__item" data-delay="70" data-direction="ttb"><a class = "link-text"href="./energyTransition.html">energy transition plan</a></div>
+				<div class="grid__item" data-delay="70" data-direction="ttb"><a class = "link-text"href="./postcards/">ZNET option postcards</a></div>
+				<div class="grid__item" data-delay="70" data-direction="ttb"><a class = "link-text"href="./particles/">sankey madness</a></div>
+				<div class="grid__item" data-delay="70" data-direction="ttb"><a class = "link-text"href="./baselineBauBars.html">emissions baseline & bau </a></div>
+				<div class="grid__item" data-delay="70" data-direction="ttb"><a class = "link-text"href="./maccTool/"><br><br><br>mac curve tool</a></div>
+				<div class="grid__item" data-delay="70" data-direction="ttb"><a class = "link-text"href="./emissionsWedge.html">emisisons pathway</a></div>
+				<div class="grid__item" data-delay="100" data-direction="ttb"></div>
+				<div class="grid__item" data-delay="250" data-direction="ttb"></div>
+				<div class="grid__item" data-delay="350" data-direction="ttb"></div>
+				<div class="grid__item" data-delay="400" data-direction="ttb"></div>
+				<div class="grid__item" data-direction="ttb"></div>
+				<div class="grid__item" data-direction="ttb" data-delay="20"></div>
+				<div class="grid__item" data-direction="ttb" data-delay="500" ></div>
+				<div class="grid__item" data-delay="120" data-direction="ttb"></div>
+				<div class="grid__item grid__item--nav grid__item--nav-prev" data-direction="ttb">
+				</div>
+				<div class="grid__item grid__item--nav grid__item--nav-next" data-direction="ttb">
+				</div>
+				<h2 class="grid__item grid__item--name">EMISSIONS<br>VISUALISATION<br>EXPERIMENTS</h2>
+				<h3 class="grid__item grid__item--title">Hepburn</h3>
+				<p class="grid__item grid__item--text">A set of experimental static and interactive data visualisations and information graphics for the ZNET Hepburn project</p>
+			</div>
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/revealer.js"></script>
+		<script src="js/menu.js"></script>
+		<script>
+		{
+			const DOM = {};
+			DOM.body = document.body;
+			DOM.gridElems = Array.from(document.querySelectorAll('.grid'));
+			
+			imagesLoaded(DOM.body, {background: true} , () => {
+				DOM.body.classList.remove('loading');
+				new Slideshow(DOM.gridElems, {
+					hasTilt: true,
+					tilt: {maxTranslationX: 25, maxTranslationY: 25}
+				});
+			});
+		}
+		</script>
+	</body>
+</html>

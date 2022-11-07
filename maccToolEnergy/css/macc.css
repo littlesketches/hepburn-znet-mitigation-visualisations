@@ -1,0 +1,249 @@
+ @font-face {
+      font-family: humour;
+      src: url(../fonts/Humor-Sans.ttf); 
+    }
+    body{
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+      font-weight: 300;    
+    }
+
+    path, .tick>line {
+      fill: none;
+      stroke-width: 0.75px;
+      stroke: #231f20; 
+    }
+    svg{
+      margin: 0 auto;
+      display: block
+    }
+
+    .selector-label, #macc-selector{
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+      font-size: 0.7rem;
+      font-weight: 300; 
+      text-align: end;
+      margin-right: 0.5rem;
+    }
+
+    #title-container{
+      height: 8vh;
+      width: 100vw;
+      position: absolute;
+    }
+    .main-header{
+      text-align: center;
+      font-size: 2.25rem;  
+      margin-bottom: 0.5rem;
+      line-height: 1; 
+      font-weight: 300;     
+      fill: #231f20;          
+    }
+    .sub-header{
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: 300; 
+      line-height: 1.2; 
+      fill: #231f20;               
+      margin-top: 0rem;  
+      -webkit-margin-after: 0rem;  
+    }
+
+    .main-header.sketch{
+      font-family: 'Amatic SC';
+      font-size: 3rem;  
+/*      font-family: 'humour';      
+      font-size: 2.25rem;  */
+    }
+    .sub-header.sketch{
+      font-family: 'Amatic SC';
+      font-size: 1.5rem;    
+/*      font-family: 'humour'; 
+      font-size: 1rem;    */           
+    }
+
+
+    .label.legend{
+      font-size: 0.75rem;   
+    }
+    .label.legend.sketch{
+      font-size: 0.65rem;   
+    }
+
+    .label{
+      fill: #231f20;
+      font-size: 1rem;   
+    }
+    .label.sketch{
+      font-family: 'Amatic SC';          
+      font-size: 1.25rem;    
+      /*font-family: 'humour'; */
+      /*font-size: 1rem;           */
+    }
+
+    .subLabel{
+      fill: #231f20;  
+      font-size: 0.5rem;       
+    }
+    .subLabel.sketch{
+      font-size: 0.75rem;  
+      font-family: 'Amatic SC';
+      /*font-family: 'humour'; */
+      /*font-size: 0.5rem;                    */
+    }
+
+    .axis{
+      fill: #231f20;
+    }
+    .axis.sketch>.tick>text{
+      font-size: 1rem;      
+      font-family: 'Reenie Beanie', cursive;  
+    }
+    
+    .tick>text{
+      fill: #231f20;
+      font-size: 0.5rem;
+    }
+
+
+    .optionLabel{
+      text-anchor: middle;
+      font-size: 0.5rem;
+      font-weight: bold;
+      stroke: #fff;
+      stroke-width: 0.2px;
+    }
+    .optionLabel.sketch{
+      font-family: 'Amatic SC';
+      font-size: 0.75rem;
+      font-family: 'humour'; 
+      font-size: 0.6rem;    
+      stroke: none;
+     
+    }
+
+    .block{
+      stroke: #FFF;
+      stroke-width: 0.5px; 
+      cursor: pointer;
+      opacity: 0.7;        
+    }
+    .block:hover{
+      opacity: 1;
+    }
+
+    .scribbleBlock{
+      fill: none;    
+      stroke-width: 1.5px;
+      stroke-opacity: 0.5;    
+      pointer-events: bounding-box;   
+      cursor: pointer      
+    }
+
+    .scribbleFill{
+      fill: none;
+      cursor: pointer;
+      visibility: visible;
+      pointer-events: bounding-box;         
+      stroke-width: 0.5px;
+      stroke-opacity: 0.35;     
+    }
+    .scribbleFill:hover{
+      stroke-width: 0.5px;
+      stroke-opacity: 0.9;       
+    }
+
+    .energyEfficiency{
+      fill: #00d565;                    
+    }
+    .scribbleBlock.energyEfficiency, .scribbleFill.energyEfficiency{
+      stroke: #00d565;    
+      fill: none;                               
+    }
+
+    .renewableGeneration{
+      fill: #d5008e;   
+    }
+    .scribbleBlock.renewableGeneration, .scribbleFill.renewableGeneration{
+      stroke: #d5008e;     
+      fill: none;                    
+    }
+
+    .fuelSwitching{
+      fill: #d5d500;   
+    }
+    .scribbleBlock.fuelSwitching, .scribbleFill.fuelSwitching{
+      stroke: #d5d500;  
+      fill: none;                                
+    }
+
+    .emissionsReduction{
+      fill: #0ab0cc;   
+    }
+    .scribbleBlock.emissionsReduction, .scribbleFill.emissionsReduction{
+      stroke: #0ab0cc;       
+      fill: none;                                
+    }
+
+    .agriculture{
+      fill: #bf5a15;   
+    }
+    .scribbleBlock.agriculture, .scribbleFill.agriculture{
+      stroke: #bf5a15;  
+      fill: none;                                
+    }
+    .carbonSequestration{
+      fill: #EFB605;   
+    }
+    .scribbleBlock.carbonSequestration, .scribbleFill.carbonSequestration{
+      stroke: #EFB605;  
+      fill: none;                                
+    }
+
+
+
+
+.offsetLine{
+    stroke: #52be36;
+    stroke-width: 1.5px;
+    stroke-dasharray: 5 5;
+}
+.targetLine{
+    stroke: #52be36;
+    stroke-width: 1.5px;
+    stroke-dasharray: 5 5;
+}
+
+  div.tooltip { 
+      position: absolute;  
+      color: #FFF;  
+      width: 25rem;          
+      /*height: 15rem;         */
+      padding: 0.25rem 0.5rem;  
+      margin-bottom: 1rem;     
+      background: #000;  
+      background-opacity: 0.8;  
+      border: 0px;    
+      border-radius: 8px;     
+      pointer-events: none;     
+  }
+  div.tooltip > p, .tooltipText{
+      font-size: 0.75rem;
+      margin-bottom: -0.25rem;
+  }
+  .tooltipHeader{
+      font-size: 1.25rem;    
+  }
+
+
+    .fill-green{
+      fill: #52be36;
+    }
+    .fill-lightGreen{
+      fill: #b5dc17;
+    }
+    .fill-darkGrey{
+      fill: #231f20;
+    }
+    .fill-lightGrey{
+      fill: #d3d2d2
+    }

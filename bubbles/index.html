@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <script src="js/tabletop.min.js"></script>   
+  <script src="js/script.js"></script>
+
+  <title>Hepburn datavis experiments</title>
+</head>
+<body>
+
+  <h1>Hepburn Shire baseline emissions by 'activity'</h1>
+  <div id="bubbleControls">
+    <span>
+      <label id = "labelAllEmissions" class = "labelSelector">
+        <input id="combine" type="radio" name="grouping" value="combine" checked>
+        All emissions
+      </label>
+      <label id = "labelEmissionSectors" class = "labelSelector">
+        <input id="emissionSectors" type="radio" name="grouping" value="sectors">
+        By Emissions Sector
+      </label>
+      <label id = "labelEconomicSectors" class = "labelSelector">
+        <input id="economicSectors" type="radio" name="grouping" value="sectors">
+        By Economic Sectors
+      </label>
+      <label id = "labelZNETBoundary" class = "labelSelector hidden">
+        <input id="znetBoundary" type="radio" name="grouping" value="distribution">
+        By ZNET Boundary
+      </label>
+      <label id = "labelNetEmissions" class = "labelSelector">
+        <input id="netEmissions" type="radio" name="grouping" value="combine">
+        Emissions vs Credits
+      </label>
+      <label id = "labelEmissionsDistribution" class = "labelSelector">
+        <input id="distribution" type="radio" name="grouping" value="distribution">
+        Activity Distribution
+      </label>
+
+    </span>
+  </div>
+
+  <div id="info"></div>
+    <div id="chart-container">
+      <svg id = "bubbleChart" viewBox = "0 0 1200 800" class = ""></svg>  
+      <svg id = "barChart" viewBox = "0 0 1200 500"></svg>
+    </div>
+      <div id="barControls">
+      <span>
+        <button id = "playNetEmissions" onclick="renderNetBars(3500)" class = "labelSelector">
+          Show net emissions
+        </button>
+      </span>
+    </div> 
+
+
+
+
+  <script>
+
+  </script>
+
+</body>
+</html>

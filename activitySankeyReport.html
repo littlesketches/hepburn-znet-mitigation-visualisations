@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pangolin|Reenie+Beanie" rel="stylesheet">  
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <style>
+        @font-face {
+            font-family: Helvetica Neue LT Std ;
+            src: url(fonts/HelveticaNeueLTStd-LtCn.otf);
+        }
+  </style>
+</head>
+
+<body>
+ 	 <div class = "svg-container">	
+
+<svg xmlns="http://www.w3.org/2000/svg" id="svg2" width="100%" viewBox=" 0 0 1500 1000" color="#000" display="block" font-family="'Helvetica Neue LT Std','Helvetica Neue-Light','Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif" font-size="11.2" font-weight="400" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" white-space="normal" word-spacing="0">
+  <defs id="defs1048">
+    <marker id="Arrow2Lend" orient="auto" overflow="visible">
+      <path id="path13633" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".6875" d="M-10.69-4.437L1.328-.017-10.69 4.401c1.92-2.61 1.909-6.18 0-8.84z"/>
+    </marker>
+  </defs>
+  <g id="g3990">
+    <text id="text4812" x="75.585" y="84.139" fill="#4d4d4d" font-family="Helvetica Neue LT Std" font-size="30" font-stretch="condensed" font-weight="500" style="line-height:100%">
+      <tspan id="tspan4827" x="75.585" y="84.139">HEPBURN SHIRE BASELINE EMISSIONS</tspan>
+    </text>
+    <text id="text5140" x="74.637" y="147.806" fill="#4d4d4d" font-family="Helvetica Neue LT Std" font-size="50" font-stretch="condensed" font-weight="300" style="line-height:100%">
+      <tspan id="tspan5144" x="74.637" y="147.806">How emissions connect </tspan><tspan id="tspan13940" x="74.637" y="197.806">from sectors to activities</tspan>
+    </text>
+    <text id="text5732" x="77.504" y="247.324" font-family="Helvetica Neue" font-size="12.5" font-weight="100" style="line-height:120%">
+      <tspan id="tspan13559" x="77.504" y="247.324">A diagram showing how the breakdown of gross* baseline emissions in 2018 are </tspan><tspan id="tspan13944" x="77.504" y="261.074">connected between: place, people, and parts of the economy</tspan><tspan id="tspan14034" x="77.504" y="288.574">The ultimate breakdown of &apos;activities&apos; illustrates the &apos;modeled&apos; ZNET emissions </tspan><tspan id="tspan14036" x="77.504" y="302.324">activities that the community might influence to reduce Hepburn&apos;s net emissions..</tspan>
+    </text>
+    <path id="rect13926" d="M77.437 215.05h428.419v3H77.437z"/>
+    <text id="text13946" x="218.992" y="980.425" fill="#4d4d4d" font-family="Helvetica Neue LT Std" font-size="22.5" font-stretch="condensed" font-style="oblique" style="line-height:100%">
+      <tspan id="tspan13950" x="218.992" y="980.425">Who is responsible for emissions</tspan>
+    </text>
+    <text id="text13954" x="816.067" y="984.587" fill="#4d4d4d" font-family="Helvetica Neue LT Std" font-size="22.5" font-stretch="condensed" font-style="oblique" style="line-height:100%">
+      <tspan id="tspan13962" x="816.067" y="984.587">How emissions are connected to everyday activities</tspan>
+    </text>
+    <text id="text13964" x="1105.827" y="133.894" fill="#4d4d4d" font-family="Helvetica Neue LT Std" font-size="22.5" font-stretch="condensed" font-style="oblique" style="line-height:100%">
+      <tspan id="tspan13972" x="1105.827" y="133.894">The activities the community can </tspan><tspan id="tspan13974" x="1105.827" y="156.394">influence to reduce emissions</tspan>
+    </text>
+    <path id="rect13978" fill="#4d4d4d" fill-opacity=".9" stroke-linejoin="round" stroke-width="1.5" d="M82.097 954.734h548.697v3H82.097z"/>
+    <path id="rect13990" fill="#4d4d4d" fill-opacity=".9" stroke-linejoin="round" stroke-width="1.5" d="M673.071 954.734h745.253v3H673.071z"/>
+    <path id="rect13992" fill="#4d4d4d" fill-opacity=".9" stroke-linejoin="round" stroke-width="1.5" d="M1107.314 165.202h312.261v3h-312.261z"/>
+  </g>
+  <g id="g5200">
+    <g id="g5994">
+      <path id="path10-9" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="72.7" d="M342.329 641.607c90 0 90 118 180 118" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path14-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="68.028" d="M537.329 761.943c90 0 90-3 180-3" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path18-2" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="63.045" d="M732.329 761.434c90 0 90 9 180 9" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path22-7" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="56.454" d="M147.329 405.709c90 0 90 106.265 180 106.265" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path26-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="53.255" d="M147.329 520.172c90 0 90 46.656 180 46.656" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path30-2" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="51.449" d="M342.329 509.471c90 0 90-102.205 180-102.205" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path34-7" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="47.028" d="M147.329 616.164c90 0 90 .805 180 .805" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path38-6" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="45.244" d="M732.329 332.679c90 0 90-.1 180-.1" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path42-9" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="43.737" d="M342.329 557.064c90 0 90-28 180-28" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path46-6" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="31.184" d="M537.329 391.548c90 0 90-75 180-75" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path50-7" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="28.584" d="M732.329 525.49c90 0 90 24.226 180 24.226" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path54-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="26.406" d="M537.329 536.345c90 0 90-16.865 180-16.865" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path58-2" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="24.936" d="M732.329 496.375c90 0 90-19.42 180-19.42" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path62-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="23.822" d="M927.329 750.822c90 0 90-13.42 180-13.42" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path66-7" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="22.457" d="M927.329 546.653c90 0 90-23.142 180-23.142" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path70-0" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="22.37" d="M537.329 418.325c90 0 90 76.767 180 76.767" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path74-2" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="19.691" d="M147.329 682.111c90 0 90-31.782 180-31.782" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path78-6" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="18.94" d="M342.329 595.787c90 0 90 28.616 180 28.616" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path82-7" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="18.538" d="M927.329 772.002c90 0 90-7.734 180-7.734" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path86-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="17.782" d="M147.329 738.357c90 0 90-69.291 180-69.291" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path90-5" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="16.15" d="M537.329 515.066c90 0 90-174.85 180-174.85" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path94-5" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="14.419" d="M732.329 664.166c90 0 90 14.58 180 14.58" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path98-8" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="14.419" d="M537.329 626.664c90 0 90 37.502 180 37.502" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path102-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="14.259" d="M927.329 788.4c90 0 90-1.957 180-1.957" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path106-2" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="12.89" d="M927.329 472.076c90 0 90 13.61 180 13.61" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path110-0" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="11.066" d="M927.329 677.07c90 0 90-23.646 180-23.646" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path114-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="10.633" d="M927.329 324.046c90 0 90-63.39 180-63.39" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path118-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="7.835" d="M732.329 306.14c90 0 90-23.002 180-23.002" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path122-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="7.44" d="M927.329 485.704c90 0 90 56.327 180 56.327" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path126-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="7.398" d="M927.329 314.386c90 0 90-81.186 180-81.186" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path130-8" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="7.383" d="M342.329 582.625c90 0 90-14.06 180-14.06" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path134-8" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="5.978" d="M927.329 560.87c90 0 90-11.195 180-11.195" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path138-6" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="5.925" d="M927.329 798.492c90 0 90 3.043 180 3.043" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path142-6" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="5.82" d="M537.329 569.067c90 0 90-33.474 180-33.474" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path146-0" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="5.586" d="M342.329 438.75c90 0 90-60 180-60" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path150-7" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="5.168" d="M927.329 337.115c90 0 90-.39 180-.39" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path154-0" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="4.983" d="M732.329 727.42c90 0 90-15.42 180-15.42" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path158-9" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="4.136" d="M537.329 617c90 0 90-265.358 180-265.358" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path162-8" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="3.887" d="M732.329 620.726c90 0 90-11.848 180-11.848" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path166-2" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="3.779" d="M537.329 725.146c90 0 90-369.547 180-369.547" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path170-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="3.618" d="M927.329 351.801c90 0 90 83.927 180 83.927" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path174-8" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="3.488" d="M927.329 280.964c90 0 90-65.863 180-65.863" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path178-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="3.482" d="M537.329 431.25c90 0 90 189.273 180 189.273" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path182-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="3.374" d="M927.329 480.297c90 0 90 28.879 180 28.879" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path186-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="3.354" d="M927.329 684.28c90 0 90-14.066 180-14.066" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path190-9" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="3.292" d="M927.329 332.885c90 0 90-44.39 180-44.39" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path194-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="3.221" d="M927.329 346.637c90 0 90 41.61 180 41.61" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path198-0" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="3.186" d="M927.329 711.102c90 0 90-14 180-14" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path202-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="2.356" d="M732.329 510.02c90 0 90 4.165 180 4.165" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path206-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="2.188" d="M927.329 463.394c90 0 90-16.568 180-16.568" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path210-5" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="2.188" d="M732.329 356.395c90 0 90 107 180 107" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path214-6" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="2.179" d="M927.329 608.024c90 0 90-11.571 180-11.571" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path218-9" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="2.104" d="M927.329 342.637c90 0 90 23.61 180 23.61" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path222-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.877" d="M927.329 330.301c90 0 90-54.39 180-54.39" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path226-0" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.683" d="M147.329 376.64c90 0 90 60.158 180 60.158" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path230-7" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.591" d="M927.329 354.405c90 0 90 90.531 180 90.531" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path234-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.587" d="M147.329 492.751c90 0 90-54.318 180-54.318" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path238-7" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.537" d="M927.329 610.053c90 0 90 8.428 180 8.428" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path242-2" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.454" d="M927.329 340.858c90 0 90 15.177 180 15.177" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path246-9" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.42" d="M927.329 513.717c90 0 90-2.144 180-2.144" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path250-4" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.402" d="M147.329 591.95c90 0 90-152.022 180-152.022" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path254-9" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.385" d="M537.329 550.24c90 0 90 72.716 180 72.716" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path258-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.338" d="M927.329 344.358c90 0 90 32.609 180 32.609" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path262-9" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.319" d="M927.329 713.355c90 0 90-7 180-7" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path266-0" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.283" d="M537.329 565.515c90 0 90-216.583 180-216.583" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path270-2" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.268" d="M927.329 348.882c90 0 90 51.625 180 51.625" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path274-6" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.259" d="M732.329 623.299c90 0 90 10.58 180 10.58" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path278-2" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.259" d="M927.329 633.88c90 0 90-4 180-4" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path282-3" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.181" d="M927.329 283.3c90 0 90-54.39 180-54.39" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path286-8" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.143" d="M927.329 465.06c90 0 90 6.732 180 6.732" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path290-1" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.131" d="M732.329 301.656c90 0 90-47.801 180-47.801" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path294-6" fill="none" stroke="gray" stroke-opacity=".2" stroke-width="1.12" d="M927.329 285.951c90 0 90 29.492 180 29.492" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path298-5" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 514.895c90 0 90 31.324 180 31.324" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path302-3" fill="none" stroke="gray" stroke-opacity=".2" d="M537.329 727.482c90 0 90-188.147 180-188.147" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path306-4" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 284.978c90 0 90 19.491 180 19.491" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path310-5" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 253.928c90 0 90-25.98 180-25.98" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path314-7" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 310.322c90 0 90-93.112 180-93.112" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path318-1" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 284.227c90 0 90-36.87 180-36.87" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path322-4" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 318.407c90 0 90-70.39 180-70.39" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path326-8" fill="none" stroke="gray" stroke-opacity=".2" d="M147.329 671.972c90 0 90-231.05 180-231.05" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path330-9" fill="none" stroke="gray" stroke-opacity=".2" d="M147.329 729.201c90 0 90-287.72 180-287.72" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path334-7" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 801.706c90 0 90 11 180 11" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path338-5" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 286.755c90 0 90 39.491 180 39.491" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path342-6" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 714.253c90 0 90 1 180 1" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path346-6" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 339.915c90 0 90 6.063 180 6.063" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path350-8" fill="none" stroke="gray" stroke-opacity=".2" d="M537.329 619.261c90 0 90-80.565 180-80.565" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path354-9" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 349.692c90 0 90 65.064 180 65.064" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path358-6" fill="none" stroke="gray" stroke-opacity=".2" d="M537.329 572.117c90 0 90 51.672 180 51.672" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path362-8" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 253.423c90 0 90-40.199 180-40.199" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path366-7" fill="none" stroke="gray" stroke-opacity=".2" d="M342.329 441.645c90 0 90 65.448 180 65.448" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path370-3" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 609.199c90 0 90-1.572 180-1.572" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path374-5" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 563.938c90 0 90 7.234 180 7.234" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path378-6" fill="none" stroke="gray" stroke-opacity=".2" d="M732.329 301.024c90 0 90-73.001 180-73.001" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path382-8" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 228.023c90 0 90-15 180-15" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path386-6" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 349.93c90 0 90 75.064 180 75.064" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path390-6" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 254.36c90 0 90-7.401 180-7.401" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path394-9" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 478.566c90 0 90 22.61 180 22.61" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path398-6" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 287.035c90 0 90 127.523 180 127.523" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path402-4" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 287.005c90 0 90 112.86 180 112.86" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <path id="path406-1" fill="none" stroke="gray" stroke-opacity=".2" d="M927.329 563.864c90 0 90-4.766 180-4.766" class="link" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+    </g>
+    <g id="g6559">
+      <g id="householdHotWaterNodeGroup-4" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 227.575)">
+        <path id="householdHotWaterNode-6" fill="#f2055c" fill-opacity=".9" d="M0 0h15v9.323H0z" shape-rendering="crispEdges"/>
+        <text id="text416-5" x="21" y="6.662" dy="0" font-size="9" font-weight="100">
+          Household Hot Water (14,572t CO2-e)
+        </text>
+      </g>
+      <g id="householdCookingNodeGroup-6" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 246.899)">
+        <path id="householdCookingNode-3" fill="#f2055c" fill-opacity=".9" d="M0 0h15v1.44H0z" shape-rendering="crispEdges"/>
+        <text id="text424-2" x="21" y="2.72" dy="0" font-size="9" font-weight="100">
+          Household Cooking (2,251t CO2-e)
+        </text>
+      </g>
+      <g id="municipalSolidWaste(MSW)NodeGroup-9" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 595.363)">
+        <path id="municipalSolidWaste(MSW)Node-8" fill="#98d200" fill-opacity=".9" d="M0 0h15v2.179H0z" shape-rendering="crispEdges"/>
+        <text id="text432-7" x="21" y="3.089" dy="0" font-size="9" font-weight="100">
+          Municipal Solid Waste (MSW) (3,405t CO2-e)
+        </text>
+      </g>
+      <g id="constructionAndDemolition(C&amp;D)WasteNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 607.542)">
+        <path id="constructionAndDemolition(C&amp;D)WasteNode-8" fill="#98d200" fill-opacity=".9" d="M0 0h15v.5H0z" shape-rendering="crispEdges"/>
+        <text id="text440-9" x="21" y="2.085" dy="0" font-size="9" font-weight="100">
+          Construction and Demolition (C&amp;D) Waste (267t CO2-e)
+        </text>
+      </g>
+      <g id="commercialAndIndustrial(C&amp;I)WasteNodeGroup-4" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 617.713)">
+        <path id="commercialAndIndustrial(C&amp;I)WasteNode-9" fill="#98d200" fill-opacity=".9" d="M0 0h15v1.537H0z" shape-rendering="crispEdges"/>
+        <text id="text448-1" x="21" y="2.769" dy="0" font-size="9" font-weight="100">
+          Commercial and Industrial (C&amp;I) Waste (2,403t CO2-e)
+        </text>
+      </g>
+      <g id="disposalOfWasteWaterNodeGroup-3" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 629.25)">
+        <path id="disposalOfWasteWaterNode-8" fill="#98d200" fill-opacity=".9" d="M0 0h15v1.259H0z" shape-rendering="crispEdges"/>
+        <text id="text456-0" x="21" y="2.63" dy="0" font-size="9" font-weight="100">
+          Disposal of waste water (1,968t CO2-e)
+        </text>
+      </g>
+      <g id="livestockDirectAnimalEmissions:PigsNodeGroup-2" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 812.454)">
+        <path id="livestockDirectAnimalEmissions:PigsNode-9" fill="#2faaff" fill-opacity=".9" d="M0 0h15v.502H0z" shape-rendering="crispEdges"/>
+        <text id="text464-5" x="21" y="2.251" dy="0" font-size="9" font-weight="100">
+          Livestock direct animal emissions: pigs (785t CO2-e)
+        </text>
+      </g>
+      <g id="livestockDirectAnimalEmissions:DairyNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 798.572)">
+        <path id="livestockDirectAnimalEmissions:DairyNode-7" fill="#2faaff" fill-opacity=".9" d="M0 0h15v5.925H0z" shape-rendering="crispEdges"/>
+        <text id="text472-1" x="21" y="4.962" dy="0" font-size="9" font-weight="100">
+          Livestock direct animal emissions: dairy (9,260t CO2-e)
+        </text>
+      </g>
+      <g id="livestockDirectAnimalEmissions:CattleNodeGroup-2" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 779.314)">
+        <path id="livestockDirectAnimalEmissions:CattleNode-8" fill="#2faaff" fill-opacity=".9" d="M0 0h15v14.259H0z" shape-rendering="crispEdges"/>
+        <text id="text480-2" x="21" y="9.129" dy="0" font-size="9" font-weight="100">
+          Livestock direct animal emissions: cattle (22,286t CO2-e)
+        </text>
+      </g>
+      <g id="livestockDirectAnimalEmissions:SheepNodeGroup-6" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 755)">
+        <path id="livestockDirectAnimalEmissions:SheepNode-3" fill="#2faaff" fill-opacity=".9" d="M0 0h15v18.538H0z" shape-rendering="crispEdges"/>
+        <text id="text488-5" x="21" y="11.269" dy="0" font-size="9" font-weight="100">
+          Livestock direct animal emissions: sheep (28,974t CO2-e)
+        </text>
+      </g>
+      <g id="soilRelatedEmissions(AllLivestock)NodeGroup-8" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 725.492)">
+        <path id="soilRelatedEmissions(AllLivestock)Node-7" fill="#2faaff" fill-opacity=".9" d="M0 0h15v23.821H0z" shape-rendering="crispEdges"/>
+        <text id="text496-2" x="21" y="15.911" dy="0" font-size="9" font-weight="100">
+          Soil related emissions (all livestock) (37,232t CO2-e)
+        </text>
+      </g>
+      <g id="stationaryEnergyNodeGroup-8" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(717.329 300.957)">
+        <path id="stationaryEnergyNode-9" fill="#f2055c" fill-opacity=".9" d="M0 0h15v56.532H0z" shape-rendering="crispEdges"/>
+        <text id="text504-3" x="21" y="28.266" dy="0" font-weight="100">
+          Stationary Energy
+        </text>
+        <text id="text506-4" x="21" y="38.266" class="figures" dy="0" font-size="8" font-weight="100">
+          88,357t CO2-e
+        </text>
+      </g>
+      <g id="travelByMotorcycleNodeGroup-9" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 571.103)">
+        <path id="travelByMotorcycleNode-9" fill="#ffb525" fill-opacity=".9" d="M0 0h15v.5H0z" shape-rendering="crispEdges"/>
+        <text id="text512-6" x="21" y=".069" dy="0" font-size="9" font-weight="100">
+          Travel by Motorcycle (215t CO2-e)
+        </text>
+      </g>
+      <g id="travelByCampervanNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 559.093)">
+        <path id="travelByCampervanNode-6" fill="#ffb525" fill-opacity=".9" d="M0 0h15v.5H0z" shape-rendering="crispEdges"/>
+        <text id="text520-9" x="21" y=".005" dy="0" font-size="9" font-weight="100">
+          Travel by Campervan (16t CO2-e)
+        </text>
+      </g>
+      <g id="travelByLightCommercialVehicleAndNon-FreightTrucksNodeGroup-9" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 538.311)">
+        <path id="travelByLightCommercialVehicleAndNon-FreightTrucksNode-2" fill="#ffb525" fill-opacity=".9" d="M0 0h15v14.353H0z" shape-rendering="crispEdges"/>
+        <text id="text528-9" x="21" y="7.176" dy="0" font-size="9" font-weight="100">
+          Travel by Light Commercial Vehicle and non-Freight Trucks (22,433t CO2-e)
+        </text>
+      </g>
+      <g id="travelByPassengerVehicleNodeGroup-0" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 507.49)">
+        <path id="travelByPassengerVehicleNode-8" fill="#ffb525" fill-opacity=".9" d="M0 0h15v27.251H0z" shape-rendering="crispEdges"/>
+        <text id="text536-9" x="21" y="13.625" dy="0" font-size="9" font-weight="100">
+          Travel by Passenger Vehicle (42,592t CO2-e)
+        </text>
+      </g>
+      <g id="landfillWasteNodeGroup-3" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 606.935)">
+        <path id="landfillWasteNode-6" fill="#98d200" fill-opacity=".9" d="M0 0h15v3.887H0z" shape-rendering="crispEdges"/>
+        <text id="text544-8" x="21" y="1.943" dy="0" font-weight="100">
+          Landfill waste
+        </text>
+        <text id="text546-3" x="21" y="11.943" class="figures" dy="0" font-size="8" font-weight="100">
+          6,075t CO2-e
+        </text>
+      </g>
+      <g id="wasteWaterNodeGroup-0" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 633.25)">
+        <path id="wasteWaterNode-0" fill="#98d200" fill-opacity=".9" d="M0 0h15v1.259H0z" shape-rendering="crispEdges"/>
+        <text id="text552-5" x="21" y=".63" dy="0" font-weight="100">
+          Waste Water
+        </text>
+        <text id="text554-6" x="21" y="10.63" class="figures" dy="0" font-size="8" font-weight="100">
+          1,968t CO2-e
+        </text>
+      </g>
+      <g id="wasteNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(717.329 618.782)">
+        <path id="wasteNode-5" fill="#98d200" fill-opacity=".9" d="M0 0h15v5.146H0z" shape-rendering="crispEdges"/>
+        <text id="text560-1" x="21" y="2.573" dy="0" font-weight="100">
+          Waste
+        </text>
+        <text id="text562-1" x="21" y="12.573" class="figures" dy="0" font-size="8" font-weight="100">
+          8,043t CO2-e
+        </text>
+      </g>
+      <g id="cropProduction:VegetablesNodeGroup-1" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 715.014)">
+        <path id="cropProduction:VegetablesNode-4" fill="#0c8b8c" fill-opacity=".9" d="M0 0h15v.5H0z" shape-rendering="crispEdges"/>
+        <text id="text568-0" x="21" y="2.239" dy="0" font-size="9" font-weight="100">
+          Crop production: Vegetables (747t CO2-e)
+        </text>
+      </g>
+      <g id="cropProduction:Non-CerealCropsNodeGroup-0" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 705.695)">
+        <path id="cropProduction:Non-CerealCropsNode-5" fill="#0c8b8c" fill-opacity=".9" d="M0 0h15v1.319H0z" shape-rendering="crispEdges"/>
+        <text id="text576-1" x="21" y="2.66" dy="0" font-size="9" font-weight="100">
+          Crop production: Non-Cereal Crops (2,062t CO2-e)
+        </text>
+      </g>
+      <g id="grazingNodeGroup-4" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 738.912)">
+        <path id="grazingNode-4" fill="#2faaff" fill-opacity=".9" d="M0 0h15v63.045H0z" shape-rendering="crispEdges"/>
+        <text id="text584-2" x="21" y="31.523" dy="0" font-weight="100">
+          Grazing
+        </text>
+        <text id="text586-1" x="21" y="41.523" class="figures" dy="0" font-size="8" font-weight="100">
+          98,537t CO2-e
+        </text>
+      </g>
+      <g id="residentialNodeGroup-0" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(522.329 375.956)">
+        <path id="residentialNode-2" fill-opacity=".9" d="M0 0h15v57.035H0z" shape-rendering="crispEdges"/>
+        <text id="text592-5" x="21" y="28.518" dy="0" font-weight="100">
+          Residential
+        </text>
+        <text id="text594-6" x="21" y="38.518" class="figures" dy="0" font-size="8" font-weight="100">
+          89,144t CO2-e
+        </text>
+      </g>
+      <g id="cameronNodeGroup-0" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(132.329 375.8)">
+        <path id="cameronNode-2" fill-opacity=".9" d="M0 0h15v58.136H0z" shape-rendering="crispEdges"/>
+        <text id="text600-4" x="-6" y="29.068" dy="0" font-weight="100" text-anchor="end">
+          <tspan id="tspan602" x="-6" y="29.068" dy="0">Cameron</tspan>
+        </text>
+        <text id="text604" x="-6" y="39.068" class="figures" dy="0" font-size="8" font-weight="100" text-anchor="end">
+          <tspan id="tspan606" x="-6" y="39.068" dy="0">90,865t CO2-e</tspan>
+        </text>
+      </g>
+      <g id="birchNodeGroup-2" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(132.329 491.957)">
+        <path id="birchNode-1" fill-opacity=".9" d="M0 0h15v54.842H0z" shape-rendering="crispEdges"/>
+        <text id="text612" x="-6" y="27.421" dy="0" font-weight="100" text-anchor="end">
+          <tspan id="tspan614" x="-6" y="27.421" dy="0">Birch</tspan>
+        </text>
+        <text id="text616-7" x="-6" y="37.421" class="figures" dy="0" font-size="8" font-weight="100" text-anchor="end">
+          <tspan id="tspan618" x="-6" y="37.421" dy="0">85,716t CO2-e</tspan>
+        </text>
+      </g>
+      <g id="creswickNodeGroup-1" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(132.329 591.249)">
+        <path id="creswickNode-1" fill-opacity=".9" d="M0 0h15v48.43H0z" shape-rendering="crispEdges"/>
+        <text id="text624-0" x="-6" y="24.215" dy="0" font-weight="100" text-anchor="end">
+          <tspan id="tspan626" x="-6" y="24.215" dy="0">Creswick</tspan>
+        </text>
+        <text id="text628" x="-6" y="34.215" class="figures" dy="0" font-size="8" font-weight="100" text-anchor="end">
+          <tspan id="tspan630" x="-6" y="34.215" dy="0">75,694t CO2-e</tspan>
+        </text>
+      </g>
+      <g id="holcombeNodeGroup-3" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(132.329 671.678)">
+        <path id="holcombeNode-9" fill-opacity=".9" d="M0 0h15v20.278H0z" shape-rendering="crispEdges"/>
+        <text id="text636" x="-6" y="10.139" dy="0" font-weight="100" text-anchor="end">
+          <tspan id="tspan638" x="-6" y="10.139" dy="0">Holcombe</tspan>
+        </text>
+        <text id="text640-1" x="-6" y="20.139" class="figures" dy="0" font-size="8" font-weight="100" text-anchor="end">
+          <tspan id="tspan642" x="-6" y="20.139" dy="0">31,694t CO2-e</tspan>
+        </text>
+      </g>
+      <g id="colibanNodeGroup-3" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(132.329 728.936)">
+        <path id="colibanNode-7" fill-opacity=".9" d="M0 0h15v18.313H0z" shape-rendering="crispEdges"/>
+        <text id="text648-0" x="-6" y="9.156" dy="0" font-weight="100" text-anchor="end">
+          <tspan id="tspan650" x="-6" y="9.156" dy="0">Coliban</tspan>
+        </text>
+        <text id="text652" x="-6" y="19.156" class="figures" dy="0" font-size="8" font-weight="100" text-anchor="end">
+          <tspan id="tspan654" x="-6" y="19.156" dy="0">28,622t CO2-e</tspan>
+        </text>
+      </g>
+      <g id="commercialNodeGroup-2" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(522.329 506.991)">
+        <path id="commercialNode-6" fill-opacity=".9" d="M0 0h15v43.942H0z" shape-rendering="crispEdges"/>
+        <text id="text660" x="21" y="21.971" dy="0" font-weight="100">
+          Commercial
+        </text>
+        <text id="text662" x="21" y="31.971" class="figures" dy="0" font-size="8" font-weight="100">
+          68,679t CO2-e
+        </text>
+      </g>
+      <g id="industrialNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(522.329 564.873)">
+        <path id="industrialNode-9" fill-opacity=".9" d="M0 0h15v7.383H0z" shape-rendering="crispEdges"/>
+        <text id="text668" x="21" y="3.692" dy="0" font-weight="100">
+          Industrial
+        </text>
+        <text id="text670" x="21" y="13.692" class="figures" dy="0" font-size="8" font-weight="100">
+          11,540t CO2-e
+        </text>
+      </g>
+      <g id="municipalNodeGroup-0" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(522.329 614.933)">
+        <path id="municipalNode-9" fill-opacity=".9" d="M0 0h15v18.94H0z" shape-rendering="crispEdges"/>
+        <text id="text676" x="21" y="9.47" dy="0" font-weight="100">
+          Municipal
+        </text>
+        <text id="text678" x="21" y="19.47" class="figures" dy="0" font-size="8" font-weight="100">
+          29,603t CO2-e
+        </text>
+      </g>
+      <g id="agricultureNodeGroup-1" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(717.329 724.929)">
+        <path id="agricultureNode-4" fill="#2faaff" fill-opacity=".9" d="M0 0h15v68.028H0z" shape-rendering="crispEdges"/>
+        <text id="text684" x="21" y="34.014" dy="0" font-weight="100">
+          Agriculture
+        </text>
+        <text id="text686" x="21" y="44.014" class="figures" dy="0" font-size="8" font-weight="100">
+          106,325t CO2-e
+        </text>
+      </g>
+      <g id="farmingNodeGroup-0" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(522.329 723.257)">
+        <path id="farmingNode-0" fill-opacity=".9" d="M0 0h15v72.7H0z" shape-rendering="crispEdges"/>
+        <text id="text692" x="21" y="36.35" dy="0" font-weight="100">
+          Farming
+        </text>
+        <text id="text694" x="21" y="46.35" class="figures" dy="0" font-size="8" font-weight="100">
+          113,627t CO2-e
+        </text>
+      </g>
+      <g id="transportNodeGroup-1" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(717.329 483.907)">
+        <path id="transportNode-0" fill="#ffb525" fill-opacity=".9" d="M0 0h15v55.875H0z" shape-rendering="crispEdges"/>
+        <text id="text700" x="21" y="27.938" dy="0" font-weight="100">
+          Transport
+        </text>
+        <text id="text702" x="21" y="37.938" class="figures" dy="0" font-size="8" font-weight="100">
+          87,331t CO2-e
+        </text>
+      </g>
+      <g id="landUse,LandUseChangeAndForestryNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(717.329 656.956)">
+        <path id="landUse,LandUseChangeAndForestryNode-0" fill="#2faaff" fill-opacity=".9" d="M0 0h15v14.419H0z" shape-rendering="crispEdges"/>
+        <text id="text708" x="21" y="7.21" dy="0" font-weight="100">
+          Land use, land use change and forestry
+        </text>
+        <text id="text710" x="21" y="17.21" class="figures" dy="0" font-size="8" font-weight="100">
+          22,537t CO2-e
+        </text>
+      </g>
+      <g id="cropProduction:CerealCropsNodeGroup-8" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 695.51)">
+        <path id="cropProduction:CerealCropsNode-1" fill="#0c8b8c" fill-opacity=".9" d="M0 0h15v3.186H0z" shape-rendering="crispEdges"/>
+        <text id="text716" x="21" y="3.593" dy="0" font-size="9" font-weight="100">
+          Crop production: Cereal Crops (4,979t CO2-e)
+        </text>
+      </g>
+      <g id="croppingNodeGroup-8" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 709.51)">
+        <path id="croppingNode-6" fill="#2faaff" fill-opacity=".9" d="M0 0h15v4.983H0z" shape-rendering="crispEdges"/>
+        <text id="text724" x="21" y="2.491" dy="0" font-weight="100">
+          Cropping
+        </text>
+        <text id="text726" x="21" y="12.491" class="figures" dy="0" font-size="8" font-weight="100">
+          7,788t CO2-e
+        </text>
+      </g>
+      <g id="reclearingLandNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 647.891)">
+        <path id="reclearingLandNode-8" fill="#0c8b8c" fill-opacity=".9" d="M0 0h15v11.066H0z" shape-rendering="crispEdges"/>
+        <text id="text732" x="21" y="7.533" dy="0" font-size="9" font-weight="100">
+          Reclearing land (17,295t CO2-e)
+        </text>
+      </g>
+      <g id="primaryLandConversionNodeGroup-3" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 668.537)">
+        <path id="primaryLandConversionNode-5" fill="#0c8b8c" fill-opacity=".9" d="M0 0h15v3.354H0z" shape-rendering="crispEdges"/>
+        <text id="text740" x="21" y="3.677" dy="0" font-size="9" font-weight="100">
+          Primary land conversion (5,242t CO2-e)
+        </text>
+      </g>
+      <g id="landUse(Change)NodeGroup-3" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 671.537)">
+        <path id="landUse(Change)Node-5" fill="#0c8b8c" fill-opacity=".9" d="M0 0h15v14.419H0z" shape-rendering="crispEdges"/>
+        <text id="text748" x="21" y="7.21" dy="0" font-weight="100">
+          Land use (change)
+        </text>
+        <text id="text750" x="21" y="17.21" class="figures" dy="0" font-size="8" font-weight="100">
+          22,537t CO2-e
+        </text>
+      </g>
+      <g id="localNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(327.329 483.747)">
+        <path id="localNode-1" fill-opacity=".9" d="M0 0h15v194.21H0z" shape-rendering="crispEdges"/>
+        <text id="text756" x="21" y="97.105" dy="0" font-weight="100">
+          Local Community
+        </text>
+        <text id="text758" x="21" y="107.105" class="figures" dy="0" font-size="8" font-weight="100">
+          303,542t CO2-e
+        </text>
+      </g>
+      <g id="visitorNodeGroup-1" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(327.329 435.957)">
+        <path id="visitorNode-3" fill-opacity=".9" d="M0 0h15v5.79H0z" shape-rendering="crispEdges"/>
+        <text id="text764" x="21" y="2.895" dy="0" font-weight="100">
+          Visitor
+        </text>
+        <text id="text766" x="21" y="12.895" class="figures" dy="0" font-size="8" font-weight="100">
+          9,050t CO2-e
+        </text>
+      </g>
+      <g id="petrolNodeGroup-7" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 535.424)">
+        <path id="petrolNode-9" fill="#ffb525" fill-opacity=".9" d="M0 0h15v28.584H0z" shape-rendering="crispEdges"/>
+        <text id="text772" x="21" y="14.292" dy="0" font-weight="100">
+          Petrol
+        </text>
+        <text id="text774" x="21" y="24.292" class="figures" dy="0" font-size="8" font-weight="100">
+          44,675t CO2-e
+        </text>
+      </g>
+      <g id="lPGNodeGroup-6" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 513.007)">
+        <path id="lPGNode-2" fill="#ffb525" fill-opacity=".9" d="M0 0h15v2.356H0z" shape-rendering="crispEdges"/>
+        <text id="text780" x="21" y="1.178" dy="0" font-weight="100">
+          LPG
+        </text>
+        <text id="text782" x="21" y="11.178" class="figures" dy="0" font-size="8" font-weight="100">
+          3,682t CO2-e
+        </text>
+      </g>
+      <g id="woodNodeGroup-4" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 227.955)">
+        <path id="woodNode-2" fill="#f2055c" fill-opacity=".9" d="M0 0h15v.5H0z" shape-rendering="crispEdges"/>
+        <text id="text788-8" x="21" y=".067" dy="0" font-weight="100">
+          Wood
+        </text>
+        <text id="text790" x="21" y="10.067" class="figures" dy="0" font-size="8" font-weight="100">
+          210t CO2-e
+        </text>
+      </g>
+      <g id="gas(Mains)NodeGroup-3" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 279.22)">
+        <path id="gas(Mains)Node-3" fill="#f2055c" fill-opacity=".9" d="M0 0h15v7.836H0z" shape-rendering="crispEdges"/>
+        <text id="text796-0" x="21" y="3.918" dy="0" font-weight="100">
+          Gas (mains)
+        </text>
+        <text id="text798" x="21" y="13.918" class="figures" dy="0" font-size="8" font-weight="100">
+          12,247t CO2-e
+        </text>
+      </g>
+      <g id="electricityNodeGroup-2" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 309.957)">
+        <path id="electricityNode-4" fill="#f2055c" fill-opacity=".9" d="M0 0h15v45.244H0z" shape-rendering="crispEdges"/>
+        <text id="text804" x="21" y="22.622" dy="0" font-weight="100">
+          Electricity
+        </text>
+        <text id="text806" x="21" y="32.622" class="figures" dy="0" font-size="8" font-weight="100">
+          70,715t CO2-e
+        </text>
+      </g>
+      <g id="travelByBusNodeGroup-0" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 501.13)">
+        <path id="travelByBusNode-9" fill="#ffb525" fill-opacity=".9" d="M0 0h15v.5H0z" shape-rendering="crispEdges"/>
+        <text id="text812-8" x="21" y=".044" dy="0" font-size="9" font-weight="100">
+          Travel by Bus (139t CO2-e)
+        </text>
+      </g>
+      <g id="commercialCookingNodeGroup-4" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 304.056)">
+        <path id="commercialCookingNode-5" fill="#f2055c" fill-opacity=".9" d="M0 0h15v.827H0z" shape-rendering="crispEdges"/>
+        <text id="text820-0" x="21" y="2.413" dy="0" font-size="9" font-weight="100">
+          Commercial Cooking (1,292t CO2-e)
+        </text>
+      </g>
+      <g id="commercialHotWaterNodeGroup-7" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 326.003)">
+        <path id="commercialHotWaterNode-5" fill="#f2055c" fill-opacity=".9" d="M0 0h15v.5H0z" shape-rendering="crispEdges"/>
+        <text id="text828" x="21" y="2.243" dy="0" font-size="9" font-weight="100">
+          Commercial Hot Water (760t CO2-e)
+        </text>
+      </g>
+      <g id="industrialProcessesNodeGroup-8" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 399.857)">
+        <path id="industrialProcessesNode-4" fill="#f2055c" fill-opacity=".9" d="M0 0h15v1.283H0z" shape-rendering="crispEdges"/>
+        <text id="text836-8" x="21" y="2.642" dy="0" font-size="9" font-weight="100">
+          Industrial processes (2,006t CO2-e)
+        </text>
+      </g>
+      <g id="commercialLighting(Internal)NodeGroup-4" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 376.298)">
+        <path id="commercialLighting(Internal)Node-8" fill="#f2055c" fill-opacity=".9" d="M0 0h15v1.338H0z" shape-rendering="crispEdges"/>
+        <text id="text844-4" x="21" y="2.669" dy="0" font-size="9" font-weight="100">
+          Commercial Lighting (internal) (2,091t CO2-e)
+        </text>
+      </g>
+      <g id="commercialCookingAndHotWaterNodeGroup-2" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 365.194)">
+        <path id="commercialCookingAndHotWaterNode-8" fill="#f2055c" fill-opacity=".9" d="M0 0h15v2.104H0z" shape-rendering="crispEdges"/>
+        <text id="text852-3" x="21" y="3.052" dy="0" font-size="9" font-weight="100">
+          Commercial Cooking and hot water (3,288t CO2-e)
+        </text>
+      </g>
+      <g id="commercialOfficeEquipmentAndOtherMisc.NodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 355.308)">
+        <path id="commercialOfficeEquipmentAndOtherMisc.Node-4" fill="#f2055c" fill-opacity=".9" d="M0 0h15v1.454H0z" shape-rendering="crispEdges"/>
+        <text id="text860-2" x="21" y="2.727" dy="0" font-size="9" font-weight="100">
+          Commercial Office Equipment and other misc. (2,272t CO2-e)
+        </text>
+      </g>
+      <g id="commercialPlantAndEquipmentNodeGroup-6" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 345.762)">
+        <path id="commercialPlantAndEquipmentNode-6" fill="#f2055c" fill-opacity=".9" d="M0 0h15v.5H0z" shape-rendering="crispEdges"/>
+        <text id="text868-5" x="21" y="2.216" dy="0" font-size="9" font-weight="100">
+          Commercial Plant and equipment (676t CO2-e)
+        </text>
+      </g>
+      <g id="commercialHVACNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 334.14)">
+        <path id="commercialHVACNode-1" fill="#f2055c" fill-opacity=".9" d="M0 0h15v5.168H0z" shape-rendering="crispEdges"/>
+        <text id="text876-3" x="21" y="4.584" dy="0" font-size="9" font-weight="100">
+          Commercial HVAC (8,077t CO2-e)
+        </text>
+      </g>
+      <g id="commercialHeatingNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 314.883)">
+        <path id="commercialHeatingNode-9" fill="#f2055c" fill-opacity=".9" d="M0 0h15v1.12H0z" shape-rendering="crispEdges"/>
+        <text id="text884-9" x="21" y="2.56" dy="0" font-size="9" font-weight="100">
+          Commercial Heating (1,751t CO2-e)
+        </text>
+      </g>
+      <g id="commercialLighting(External)NodeGroup-9" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 386.636)">
+        <path id="commercialLighting(External)Node-8" fill="#f2055c" fill-opacity=".9" d="M0 0h15v3.221H0z" shape-rendering="crispEdges"/>
+        <text id="text892-0" x="21" y="3.611" dy="0" font-size="9" font-weight="100">
+          Commercial Lighting (external) (5,035t CO2-e)
+        </text>
+      </g>
+      <g id="streetAndTrafficLightingNodeGroup-9" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 424.931)">
+        <path id="streetAndTrafficLightingNode-6" fill="#f2055c" fill-opacity=".9" d="M0 0h15v.5H0z" shape-rendering="crispEdges"/>
+        <text id="text900-9" x="21" y="2.062" dy="0" font-size="9" font-weight="100">
+          Street and traffic lighting (195t CO2-e)
+        </text>
+      </g>
+      <g id="councilBuildingsAndFacilitiesNodeGroup-3" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 414.537)">
+        <path id="councilBuildingsAndFacilitiesNode-2" fill="#f2055c" fill-opacity=".9" d="M0 0h15v.5H0z" shape-rendering="crispEdges"/>
+        <text id="text908-8" x="21" y="2.197" dy="0" font-size="9" font-weight="100">
+          Council buildings and facilities (616t CO2-e)
+        </text>
+      </g>
+      <g id="householdAppliancesNodeGroup-9" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 255.339)">
+        <path id="householdAppliancesNode-1" fill="#f2055c" fill-opacity=".9" d="M0 0h15v10.633H0z" shape-rendering="crispEdges"/>
+        <text id="text916-0" x="21" y="7.317" dy="0" font-size="9" font-weight="100">
+          Household Appliances (16,619t CO2-e)
+        </text>
+      </g>
+      <g id="householdSpaceCoolingNodeGroup-6" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 274.972)">
+        <path id="householdSpaceCoolingNode-6" fill="#f2055c" fill-opacity=".9" d="M0 0h15v1.877H0z" shape-rendering="crispEdges"/>
+        <text id="text924-6" x="21" y="2.938" dy="0" font-size="9" font-weight="100">
+          Household Space Cooling (2,933t CO2-e)
+        </text>
+      </g>
+      <g id="householdLightingNodeGroup-4" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 286.849)">
+        <path id="householdLightingNode-9" fill="#f2055c" fill-opacity=".9" d="M0 0h15v3.292H0z" shape-rendering="crispEdges"/>
+        <text id="text932-6" x="21" y="3.646" dy="0" font-size="9" font-weight="100">
+          Household Lighting (5,145t CO2-e)
+        </text>
+      </g>
+      <g id="householdSpaceHeatingNodeGroup-9" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 212.957)">
+        <path id="householdSpaceHeatingNode-9" fill="#f2055c" fill-opacity=".9" d="M0 0h15v4.619H0z" shape-rendering="crispEdges"/>
+        <text id="text940-8" x="21" y="4.309" dy="0" font-size="9" font-weight="100">
+          Household Space Heating (7,219t CO2-e)
+        </text>
+      </g>
+      <g id="gas(Bottled)NodeGroup-4" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 253.29)">
+        <path id="gas(Bottled)Node-4" fill="#f2055c" fill-opacity=".9" d="M0 0h15v1.131H0z" shape-rendering="crispEdges"/>
+        <text id="text948-4" x="21" y=".565" dy="0" font-weight="100">
+          Gas (bottled)
+        </text>
+        <text id="text950-8" x="21" y="10.565" class="figures" dy="0" font-size="8" font-weight="100">
+          1,767t CO2-e
+        </text>
+      </g>
+      <g id="other(Unallocated)NodeGroup-8" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 433.92)">
+        <path id="other(Unallocated)Node-0" fill="#f2055c" fill-opacity=".9" d="M0 0h15v3.617H0z" shape-rendering="crispEdges"/>
+        <text id="text956-6" x="21" y="3.809" dy="0" font-size="9" font-weight="100">
+          Other (unallocated) (5,654t CO2-e)
+        </text>
+      </g>
+      <g id="agricultureActivitiesNodeGroup-6" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 444.14)">
+        <path id="agricultureActivitiesNode-6" fill="#f2055c" fill-opacity=".9" d="M0 0h15v3.779H0z" shape-rendering="crispEdges"/>
+        <text id="text964-5" x="21" y="3.889" dy="0" font-size="9" font-weight="100">
+          Agriculture activities (5,906t CO2-e)
+        </text>
+      </g>
+      <g id="dieselNodeGroup-2" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(912.329 462.3)">
+        <path id="dieselNode-8" fill="#ffa225" fill-opacity=".9" d="M0 0h15v27.124H0z" shape-rendering="crispEdges"/>
+        <text id="text972-4" x="21" y="13.562" dy="0" font-weight="100">
+          Diesel
+        </text>
+        <text id="text974-3" x="21" y="23.562" class="figures" dy="0" font-size="8" font-weight="100">
+          42,393t CO2-e
+        </text>
+      </g>
+      <g id="off-RoadVehiclesAndNon-TransportEquipmentNodeGroup-5" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 471.22)">
+        <path id="off-RoadVehiclesAndNon-TransportEquipmentNode-1" fill="#ffb525" fill-opacity=".9" d="M0 0h15v1.143H0z" shape-rendering="crispEdges"/>
+        <text id="text980-8" x="21" y=".572" dy="0" font-size="9" font-weight="100">
+          Off-road vehicles and non-transport equipment (1,787t CO2-e)
+        </text>
+      </g>
+      <g id="travelByRigidAndArticulatedTrucksNodeGroup-0" class="node" font-size="medium" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal" transform="translate(1107.329 479.24)">
+        <path id="travelByRigidAndArticulatedTrucksNode-7" fill="#ffb525" fill-opacity=".9" d="M0 0h15v12.89H0z" shape-rendering="crispEdges"/>
+        <text id="text988-6" x="21" y="6.445" dy="0" font-size="9" font-weight="100">
+          Travel by Rigid and Articulated Trucks (20,147t CO2-e)
+        </text>
+      </g>
+      <path id="soilRelatedEmissions(AllLivestock)Node-7-4" fill="none" fill-opacity=".9" stroke="#0c8b8c" stroke-width="1.5" d="M1111.468 896.511h14.827v33.133h-14.827z" baseline-shift="0" display="block" paint-order="fill stroke markers" shape-rendering="crispEdges" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal"/>
+      <text id="text496-2-5" x="1133.659" y="914.974" baseline-shift="0" display="block" font-size="9" font-weight="100" paint-order="fill stroke markers" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal">
+        Reforestry: carbon sink of 50,551 t CO2-e
+      </text>
+    </g>
+    <g id="g6924" fill="#4d4d4d">
+      <text id="text12796" x="142.631" y="852.238" font-family="Helvetica Neue LT Std" font-size="17.5" font-stretch="condensed" font-weight="500" letter-spacing="0" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center" text-anchor="middle">
+        <tspan id="tspan12798" x="142.631" y="852.238" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">Places</tspan><tspan id="tspan12800" x="144.132" y="866.763" font-size="12.5" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">Wards in </tspan><tspan id="tspan12802" x="142.631" y="879.263" font-size="12.5" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">Hepburn Shire</tspan>
+      </text>
+      <text id="text12804" x="335.572" y="853.251" font-family="Helvetica Neue LT Std" font-size="17.5" font-stretch="condensed" font-weight="500" letter-spacing="0" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center" text-anchor="middle">
+        <tspan id="tspan12806" x="335.572" y="853.251" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">People</tspan><tspan id="tspan12810" x="335.572" y="867.776" font-size="12.5" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">Who emits</tspan><tspan id="tspan12816" x="335.572" y="880.276" font-size="12.5" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">emissions</tspan>
+      </text>
+      <text id="text12818" x="531.93" y="852.188" font-family="Helvetica Neue LT Std" font-size="17.5" font-stretch="condensed" font-weight="500" letter-spacing="0" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center" text-anchor="middle">
+        <tspan id="tspan12820" x="531.93" y="852.188" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">Economy</tspan><tspan id="tspan12822" x="533.431" y="866.713" font-size="12.5" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">Emissions from </tspan><tspan id="tspan12824" x="531.93" y="879.213" font-size="12.5" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">parts of the economy</tspan>
+      </text>
+      <text id="text12830" x="724.928" y="858.048" font-family="Helvetica Neue LT Std" font-size="17.5" font-stretch="condensed" font-weight="500" letter-spacing="0" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center" text-anchor="middle">
+        <tspan id="tspan12832" x="724.928" y="858.048" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">Emission</tspan><tspan id="tspan12840" x="724.928" y="875.548" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">sectors</tspan>
+      </text>
+      <text id="text12842" x="920.298" y="858.048" font-family="Helvetica Neue LT Std" font-size="17.5" font-stretch="condensed" font-weight="500" letter-spacing="0" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center" text-anchor="middle">
+        <tspan id="tspan12844" x="922.4" y="858.048" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">Emission </tspan><tspan id="tspan12848" x="920.298" y="875.548" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">sources</tspan>
+      </text>
+      <text id="text12862" x="1111.76" y="866.798" font-family="Helvetica Neue LT Std" font-size="17.5" font-stretch="condensed" font-weight="500" letter-spacing="0" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center" text-anchor="middle">
+        <tspan id="tspan12876" x="1111.76" y="866.798" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:center">Actvities</tspan>
+      </text>
+      <text id="text13598" x="1147.705" y="858.459" font-family="Helvetica Neue LT Std" font-size="17.5" font-stretch="condensed" font-weight="500" letter-spacing="0" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:start">
+        <tspan id="tspan13604" x="1147.705" y="858.459" font-size="12.5" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:start">that cause emissions</tspan>
+      </text>
+      <path id="path13888" fill-rule="evenodd" stroke="#000" stroke-width=".5" d="M1256.177 858.415h8.54l-4.383-7.978z"/>
+      <text id="text13896" x="1147.15" y="871.788" font-family="Helvetica Neue LT Std" font-size="17.5" font-stretch="condensed" font-weight="500" letter-spacing="0" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:start">
+        <tspan id="tspan13898" x="1147.15" y="871.788" font-size="12.5" style="line-height:100%;-inkscape-font-specification:'Helvetica Neue LT Std Medium Condensed';text-align:start">that reduce emissions</tspan>
+      </text>
+      <path id="path13912" fill-rule="evenodd" stroke="#000" stroke-width=".5" d="M1141.41 860.807h124.047"/>
+      <path id="path13918" fill-rule="evenodd" stroke="#000" stroke-width=".5" d="M1256.517 863.155h8.539l-4.382 7.977z"/>
+    </g>
+  </g>
+</svg>
+
+    </div>
+</body>

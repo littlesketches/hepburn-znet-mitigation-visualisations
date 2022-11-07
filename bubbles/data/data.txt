@@ -1,0 +1,999 @@
+type	boundary	emissionsSector	economicSector	endUser	source	activity	emissions	energy	emissionsAbatement	natural	unit	bau2018	bau2019	bau2020	bau2021	bau2022	bau2023	bau2024	bau2025	bau2026	bau2027	bau2028	bau2029	znet2018	znet2019	znet2020	znet2021	znet2022	znet2023	znet2024	znet2025	znet2026	znet2027	znet2028	znet2029	bauEnergy2018	bauEnergy2019	bauEnergy2020	bauEnergy2021	bauEnergy2022	bauEnergy2023	bauEnergy2024	bauEnergy2025	bauEnergy2026	bauEnergy2027	bauEnergy2028	bauEnergy2029	znetEnergy2018	znetEnergy2019	znetEnergy2020	znetEnergy2021	znetEnergy2022	znetEnergy2023	znetEnergy2024	znetEnergy2025	znetEnergy2026	znetEnergy2027	znetEnergy2028	znetEnergy2029
+emissions	Included	Stationary Energy	Residential	Local	Electricity	Household Space Heating	1896	5.9	0	1635	MWh	1896	1923	1950	1977	2007	2037	2067	2098	2130	2162	2194	2227	1896	1901	1815	1443	1062	960	954	966	980	994	1009	1024	1635	1657	1681	1704	1730	1756	1782	1809	1836	1863	1891	1920	6	7	7	7	6	7	7	8	9	10	11	12
+emissions	Included	Stationary Energy	Residential	Local	Electricity	Household Hot Water	12350	38.3	0	10646	MWh	12350	12523	12698	12876	13069	13265	13464	13666	13871	14079	14290	14504	12350	11495	11008	10684	10463	10300	10179	10089	10021	9973	9939	9918	10646	10795	10946	11100	11266	11435	11607	11781	11958	12137	12319	12504	38	37	37	38	39	40	42	43	45	47	49	51
+emissions	Included	Stationary Energy	Residential	Local	Electricity	Household Cooking	904	2.8	0	780	MWh	904	917	930	943	957	971	986	1001	1016	1031	1046	1062	904	917	930	943	957	971	986	1001	1016	1031	1046	1062	780	790	802	813	825	837	850	863	876	889	902	916	3	4	6	8	9	11	13	15	17	19	21	23
+emissions	Included	Stationary Energy	Residential	Local	Electricity	Household Appliances	9993	31	0	8615	MWh	9993	10133	10275	10419	10575	10734	10895	11058	11224	11392	11563	11737	9993	9942	9887	9829	9777	9721	9662	9598	9530	9458	9382	9301	8615	8735	8858	8982	9116	9253	9392	9533	9676	9821	9968	10118	31	31	31	30	30	30	30	29	29	29	28	28
+emissions	Included	Stationary Energy	Residential	Local	Electricity	Household Space Cooling	5144	16	0	4435	MWh	5144	5216	5289	5363	5444	5525	5608	5692	5778	5864	5952	6042	5144	5200	5192	4977	4760	4747	4803	4873	4946	5020	5095	5172	4435	4497	4560	4624	4693	4763	4835	4907	4981	5056	5131	5208	16	16	16	15	15	15	15	15	15	16	16	16
+emissions	Included	Stationary Energy	Residential	Local	Electricity	Household Lighting	1903	5.9	0	1640	MWh	1903	1929	1956	1984	2014	2044	2074	2106	2137	2169	2202	2235	1903	1792	1730	1690	1664	1647	1634	1626	1621	1619	1619	1620	1640	1663	1687	1710	1736	1762	1788	1815	1842	1870	1898	1927	6	6	5	5	5	5	5	5	5	5	5	5
+emissions	Included	Stationary Energy	Residential	Local	Electricity	Household Electric Vehicle Charging	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	5	13	25	34	40
+emissions	Included	Stationary Energy	Residential	Local	Gas (mains)	Household Space Heating	2390	43.1	0	43	TJ	2390	2423	2457	2491	2529	2567	2605	2644	2684	2724	2765	2806	2390	2333	2245	2061	1874	1775	1706	1640	1573	1503	1431	1356	43	44	44	45	46	46	47	48	48	49	50	51	43	42	41	37	34	32	31	30	28	27	26	25
+emissions	Included	Stationary Energy	Residential	Local	Gas (mains)	Household Hot Water	2516	45.4	0	45	TJ	2516	2551	2587	2623	2663	2703	2743	2784	2826	2868	2911	2955	2516	2464	2410	2354	2298	2240	2179	2117	2052	1984	1914	1842	45	46	47	47	48	49	49	50	51	52	53	53	45	45	44	43	42	40	39	38	37	36	35	33
+emissions	Included	Stationary Energy	Residential	Local	Gas (mains)	Household Cooking	2095	37.8	0	38	TJ	2095	2124	2154	2184	2217	2250	2284	2318	2353	2388	2424	2460	2095	2051	2006	1960	1913	1865	1814	1762	1708	1652	1594	1533	38	38	39	39	40	41	41	42	42	43	44	44	38	37	36	35	35	34	33	32	31	30	29	28
+emissions	Included	Stationary Energy	Residential	Local	Gas (bottled)	Household Space Heating	300	4.7	0	5	TJ	300	304	309	313	318	322	327	332	337	342	347	353	300	293	282	259	235	223	214	206	198	189	180	170	5	5	5	5	5	5	5	5	5	5	5	5	5	5	4	4	4	4	3	3	3	3	3	3
+emissions	Included	Stationary Energy	Residential	Local	Gas (bottled)	Household Hot Water	902	14	0	14	TJ	902	914	927	940	954	969	983	998	1013	1028	1043	1059	902	883	864	844	824	803	781	759	735	711	686	660	14	14	14	15	15	15	15	16	16	16	16	16	14	14	14	13	13	13	12	12	12	11	11	10
+emissions	Included	Stationary Energy	Residential	Local	Gas (bottled)	Household Cooking	279	4.3	0	4	TJ	279	283	287	291	295	300	304	309	314	318	323	328	279	273	267	261	255	248	242	235	228	220	212	204	4	4	4	5	5	5	5	5	5	5	5	5	4	4	4	4	4	4	4	4	4	3	3	3
+emissions	Included	Stationary Energy	Residential	Local	Wood	Household Space Heating	176	135.4	0	8357	tonnes of wood	176	178	181	183	186	189	192	195	198	201	204	207	176	178	178	171	164	163	165	168	170	173	175	178	8357	8474	8593	8713	8844	8976	9111	9248	9386	9527	9670	9815	135	137	137	131	126	126	127	129	131	133	135	137
+emissions	Included	Stationary Energy	Residential	Local	Solar	Renewable electricity consumed on site	0	16.6	5363	4623	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	-1296	-2155	-2931	-3845	-4999	-6287	-7819	-10184	-13166	-15311	-16703	4623	4623	4623	4623	4623	4623	4623	4623	4623	4623	4623	4623	17	18	19	20	22	24	27	31	37	44	50	53
+emissions	Included	Stationary Energy	Residential	Local	Solar	Renewable electricity exported to grid	0	7.1	2298	1981	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	-535	-868	-1110	-1300	-1457	-1590	-1706	-1809	-1901	-1985	-2061	1981	1981	1981	1981	1981	1981	1981	1981	1981	1981	1981	1981	7	8	8	8	8	9	9	9	9	9	9	9
+emissions	Included	Stationary Energy	Residential	Local	Solar	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-2851	-2851	-2851	-22213	-22213	-22213	-22213	-22213	-22213	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	9	9	69	69	69	69	69	69
+emissions	Included	Stationary Energy	Residential	Local	Wind	Renewable electricity imported from grid	0	19.5	6286	5419	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-20789	-20789	-20789	-20789	-20789	-20789	5419	5419	5419	5419	5419	5419	5419	5419	5419	5419	5419	5419	20	20	20	20	20	20	84	84	84	84	84	84
+emissions	Included	Stationary Energy	Residential	Local	Biomass	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-133	-133	-133	-5251	-5251	-5251	-5251	-5251	-5251	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	16	16	16	16	16
+emissions	Included	Stationary Energy	Residential	Visitor	Electricity	Household Space Heating	366	1.1	0	316	MWh	366	375	385	394	404	414	425	435	446	457	469	481	366	375	385	394	404	414	425	435	446	457	469	481	316	324	332	340	349	357	366	375	385	394	404	414	1	1	1	1	1	1	1	1	1	1	2	2
+emissions	Included	Stationary Energy	Residential	Visitor	Electricity	Household Hot Water	2386	7.4	0	2057	MWh	2386	2445	2507	2569	2633	2699	2767	2836	2907	2979	3054	3130	2386	2445	2507	2569	2633	2699	2767	2836	2907	2979	3054	3130	2057	2108	2161	2215	2270	2327	2385	2445	2506	2568	2633	2699	7	8	8	8	8	8	9	9	9	9	10	10
+emissions	Included	Stationary Energy	Residential	Visitor	Electricity	Household Cooking	175	0.5	0	151	MWh	175	179	184	188	193	198	203	208	213	218	224	229	175	179	184	188	193	198	203	208	213	218	224	229	151	154	158	162	166	170	175	179	183	188	193	198	1	1	1	1	1	1	1	1	1	1	1	1
+emissions	Included	Stationary Energy	Residential	Visitor	Electricity	Household Appliances	1930	6	0	1664	MWh	1930	1979	2028	2079	2131	2184	2239	2295	2352	2411	2471	2533	1930	1979	2028	2079	2131	2184	2239	2295	2352	2411	2471	2533	1664	1706	1748	1792	1837	1883	1930	1978	2028	2078	2130	2184	6	6	6	7	7	7	7	7	7	8	8	8
+emissions	Included	Stationary Energy	Residential	Visitor	Electricity	Household Space Cooling	994	3.1	0	857	MWh	994	1019	1044	1070	1097	1124	1152	1181	1211	1241	1272	1304	994	1019	1044	1070	1097	1124	1152	1181	1211	1241	1272	1304	857	878	900	923	946	969	994	1018	1044	1070	1097	1124	3	3	3	3	3	4	4	4	4	4	4	4
+emissions	Included	Stationary Energy	Residential	Visitor	Electricity	Household Lighting	368	1.1	0	317	MWh	368	377	386	396	406	416	426	437	448	459	471	482	368	377	386	396	406	416	426	437	448	459	471	482	317	325	333	341	350	359	367	377	386	396	406	416	1	1	1	1	1	1	1	1	1	1	2	2
+emissions	Included	Stationary Energy	Residential	Visitor	Electricity	Household Electric Vehicle Charging	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Residential	Visitor	Gas (mains)	Household Space Heating	462	8.3	0	8	TJ	462	473	485	497	510	522	535	549	562	576	591	606	462	473	485	497	510	522	535	549	562	576	591	606	8	9	9	9	9	9	10	10	10	10	11	11	8	9	9	9	9	9	10	10	10	10	11	11
+emissions	Included	Stationary Energy	Residential	Visitor	Gas (mains)	Household Hot Water	486	8.8	0	9	TJ	486	498	511	523	537	550	564	578	592	607	622	638	486	498	511	523	537	550	564	578	592	607	622	638	9	9	9	9	10	10	10	10	11	11	11	12	9	9	9	9	10	10	10	10	11	11	11	12
+emissions	Included	Stationary Energy	Residential	Visitor	Gas (mains)	Household Cooking	405	7.3	0	7	TJ	405	415	425	436	447	458	469	481	493	505	518	531	405	415	425	436	447	458	469	481	493	505	518	531	7	7	8	8	8	8	8	9	9	9	9	10	7	8	8	8	8	8	9	9	9	9	9	10
+emissions	Included	Stationary Energy	Residential	Visitor	Gas (bottled)	Household Space Heating	58	0.9	0	1	TJ	58	59	61	62	64	66	67	69	71	72	74	76	58	59	61	62	64	66	67	69	71	72	74	76	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+emissions	Included	Stationary Energy	Residential	Visitor	Gas (bottled)	Household Hot Water	174	2.7	0	3	TJ	174	179	183	188	192	197	202	207	212	218	223	229	174	179	183	188	192	197	202	207	212	218	223	229	3	3	3	3	3	3	3	3	3	3	3	4	3	3	3	3	3	3	3	3	3	3	4	4
+emissions	Included	Stationary Energy	Residential	Visitor	Gas (bottled)	Household Cooking	54	0.8	0	1	TJ	54	55	57	58	60	61	63	64	66	67	69	71	54	55	57	58	60	61	63	64	66	67	69	71	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+emissions	Included	Stationary Energy	Residential	Visitor	Wood	Household Space Heating	34	26.2	0	1614	tonnes of wood	34	35	36	37	38	38	39	40	41	42	44	45	34	35	36	37	38	38	39	40	41	42	44	45	1614	1655	1696	1739	1782	1827	1872	1919	1967	2016	2067	2118	26	27	28	28	29	30	30	31	32	33	34	34
+emissions	Included	Stationary Energy	Residential	Visitor	Solar	Renewable electricity consumed on site	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Residential	Visitor	Solar	Renewable electricity exported to grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Residential	Visitor	Solar	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-551	-551	-551	-4291	-4291	-4291	-4291	-4291	-4291	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	2	13	13	13	13	13	13
+emissions	Included	Stationary Energy	Residential	Visitor	Wind	Renewable electricity imported from grid	0	3	981	846	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-4016	-4016	-4016	-4016	-4016	-4016	846	846	846	846	846	846	846	846	846	846	846	846	3	3	3	3	3	3	16	16	16	16	16	16
+emissions	Included	Stationary Energy	Residential	Visitor	Biomass	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-26	-26	-26	-1014	-1014	-1014	-1014	-1014	-1014	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	3	3	3	3	3
+emissions	Included	Stationary Energy	Commercial	Local	Electricity	Commercial HVAC	8077	25.1	0	6963	MWh	8077	8239	8404	8572	8743	8918	9097	9278	9464	9653	9846	10043	8077	8218	8275	8058	7828	7871	8008	8166	8328	8495	8665	8838	6963	7103	7245	7390	7537	7688	7842	7999	8159	8322	8488	8658	25	26	26	25	24	24	25	25	26	26	27	27
+emissions	Included	Stationary Energy	Commercial	Local	Electricity	Commercial Office Equipment and other misc.	2272	7.1	0	1959	MWh	2272	2318	2364	2411	2460	2509	2559	2610	2662	2716	2770	2825	2272	2312	2328	2267	2202	2214	2253	2297	2343	2390	2438	2486	1959	1998	2038	2079	2120	2163	2206	2250	2295	2341	2388	2436	7	7	7	7	7	7	7	7	7	7	8	8
+emissions	Included	Stationary Energy	Commercial	Local	Electricity	Commercial Plant and equipment	676	2.1	0	582	MWh	676	689	703	717	731	746	761	776	791	807	823	840	676	687	692	674	655	658	670	683	696	710	725	739	582	594	606	618	630	643	656	669	682	696	710	724	2	2	2	2	2	2	2	2	2	2	2	2
+emissions	Included	Stationary Energy	Commercial	Local	Electricity	Commercial Cooking and hot water	3288	10.2	0	2835	MWh	3288	3354	3421	3489	3559	3630	3703	3777	3853	3930	4008	4088	3288	3345	3368	3280	3187	3204	3260	3324	3390	3458	3527	3598	2835	2891	2949	3008	3068	3130	3192	3256	3321	3388	3455	3524	10	10	11	10	10	10	10	10	11	11	11	11
+emissions	Included	Stationary Energy	Commercial	Local	Electricity	Commercial Lighting (internal)	2091	6.5	0	1803	MWh	2091	2133	2176	2219	2263	2309	2355	2402	2450	2499	2549	2600	2091	2127	2142	2086	2027	2038	2073	2114	2156	2199	2243	2288	1803	1839	1875	1913	1951	1990	2030	2071	2112	2154	2197	2241	7	7	7	7	6	6	6	7	7	7	7	7
+emissions	Included	Stationary Energy	Commercial	Local	Electricity	Commercial Lighting (external)	5035	15.6	0	4340	MWh	5035	5135	5238	5343	5450	5559	5670	5783	5899	6017	6137	6260	5035	5122	5157	5022	4879	4906	4991	5089	5191	5295	5401	5509	4340	4427	4515	4606	4698	4792	4888	4985	5085	5187	5291	5396	16	16	16	16	15	15	16	16	16	16	17	17
+emissions	Included	Stationary Energy	Commercial	Local	Electricity	Commercial: Electric Vehicle Charging	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	3	8	15	20	24
+emissions	Included	Stationary Energy	Commercial	Local	Gas (mains)	Commercial Cooking	1292	23.3	0	23	TJ	1292	1318	1344	1371	1399	1427	1455	1484	1514	1544	1575	1607	1292	1318	1344	1371	1399	1427	1455	1484	1514	1544	1575	1607	23	24	24	25	25	26	26	27	27	28	28	29	23	24	24	25	25	26	26	27	27	28	28	29
+emissions	Included	Stationary Energy	Commercial	Local	Gas (mains)	Commercial Heating	1751	31.6	0	32	TJ	1751	1786	1821	1858	1895	1933	1972	2011	2051	2092	2134	2177	1751	1786	1821	1858	1895	1933	1972	2011	2051	2092	2134	2177	32	32	33	34	34	35	36	36	37	38	39	39	32	32	33	34	34	35	36	36	37	38	39	39
+emissions	Included	Stationary Energy	Commercial	Local	Gas (mains)	Commercial Hot Water	760	13.7	0	14	TJ	760	775	791	807	823	839	856	873	890	908	926	945	760	775	791	807	823	839	856	873	890	908	926	945	14	14	14	15	15	15	15	16	16	16	17	17	14	14	14	15	15	15	15	16	16	16	17	17
+emissions	Included	Stationary Energy	Commercial	Local	Gas (bottled)	Commercial Cooking	0	0	0	0	TJ	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Commercial	Local	Gas (bottled)	Commercial Heating	0	0	0	0	TJ	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Commercial	Local	Gas (bottled)	Commercial Hot Water	0	0	0	0	TJ	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Commercial	Local	Solar	Renewable electricity consumed on site	0	2.4	758	653	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	-79	-479	-1870	-3262	-3662	-3729	-3739	-3741	-3741	-3741	-3741	653	653	653	653	653	653	653	653	653	653	653	653	2	3	4	7	11	12	12	12	12	12	12	12
+emissions	Included	Stationary Energy	Commercial	Local	Solar	Renewable electricity exported to grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Commercial	Local	Solar	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1899	-1899	-1899	-14794	-14794	-14794	-14794	-14794	-14794	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	6	6	46	46	46	46	46	46
+emissions	Included	Stationary Energy	Commercial	Local	Wind	Renewable electricity imported from grid	0	10.9	3501	3018	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-13846	-13846	-13846	-13846	-13846	-13846	3018	3018	3018	3018	3018	3018	3018	3018	3018	3018	3018	3018	11	11	11	11	11	11	54	54	54	54	54	54
+emissions	Included	Stationary Energy	Commercial	Local	Biomass	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-89	-89	-89	-3497	-3497	-3497	-3497	-3497	-3497	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	11	11	11	11	11
+emissions	Included	Stationary Energy	Industrial	Local	Electricity	Industrial processes	1982	6.2	0	1709	MWh	1982	2022	2063	2104	2146	2189	2233	2277	2323	2369	2417	2465	1982	2022	2063	2104	2146	2189	2233	2277	2323	2369	2417	2465	1709	1743	1778	1814	1850	1887	1925	1963	2002	2042	2083	2125	6	6	6	7	7	7	7	7	7	7	8	8
+emissions	Included	Stationary Energy	Industrial	Local	Electricity	Industrial sector Electric Vehicle Charging	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	3	5	5
+emissions	Included	Stationary Energy	Industrial	Local	Gas (mains)	Industrial processes	24	0	0	0	TJ	24	24	25	25	25	26	27	27	28	28	29	29	24	24	25	25	25	26	27	27	28	28	29	29	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Industrial	Local	Gas (bottled)	Industrial processes	0	0	0	0	TJ	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Industrial	Local	Solar	Renewable electricity consumed on site	0	2.4	758	653	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	653	653	653	653	653	653	653	653	653	653	653	653	2	2	2	2	2	2	2	2	2	2	2	2
+emissions	Included	Stationary Energy	Industrial	Local	Solar	Renewable electricity exported to grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Industrial	Local	Solar	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-176	-176	-176	-1368	-1368	-1368	-1368	-1368	-1368	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	4	4	4	4	4	4
+emissions	Included	Stationary Energy	Industrial	Local	Wind	Renewable electricity imported from grid	0	1	313	270	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1280	-1280	-1280	-1280	-1280	-1280	270	270	270	270	270	270	270	270	270	270	270	270	1	1	1	1	1	1	5	5	5	5	5	5
+emissions	Included	Stationary Energy	Industrial	Local	Biomass	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-8	-8	-8	-323	-323	-323	-323	-323	-323	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	1
+emissions	Included	Stationary Energy	Farming	Local	Electricity	Agriculture activities	2487	7.7	0	2144	MWh	2487	2487	2487	2487	2487	2487	2487	2487	2487	2487	2487	2487	2487	2478	2462	2422	2336	2199	2061	1975	1935	1919	1913	1910	2144	2144	2144	2144	2144	2144	2144	2144	2144	2144	2144	2144	8	8	8	8	7	7	6	6	6	6	6	6
+emissions	Included	Stationary Energy	Farming	Local	Diesel	Agriculture activities	3419	46.3	0	1146	kL	3419	3419	3419	3419	3419	3419	3419	3419	3419	3419	3419	3419	3419	3407	3385	3330	3211	3023	2834	2715	2660	2638	2630	2626	1146	1146	1146	1146	1146	1146	1146	1146	1146	1146	1146	1146	46	46	46	45	44	41	38	37	36	36	36	36
+emissions	Included	Stationary Energy	Farming	Local	Solar	Renewable electricity consumed on site	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Farming	Local	Solar	Renewable electricity exported to grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Farming	Local	Solar	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-220	-220	-220	-1716	-1716	-1716	-1716	-1716	-1716	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	5	5	5	5	5	5
+emissions	Included	Stationary Energy	Farming	Local	Wind	Renewable electricity imported from grid	0	1.2	392	338	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1606	-1606	-1606	-1606	-1606	-1606	338	338	338	338	338	338	338	338	338	338	338	338	1	1	1	1	1	1	6	6	6	6	6	6
+emissions	Included	Stationary Energy	Farming	Local	Biomass	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-10	-10	-10	-406	-406	-406	-406	-406	-406	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	1
+emissions	Included	Stationary Energy	Municipal	Local	Electricity	Other (unallocated)	5654	17.5	0	4874	MWh	5654	5733	5813	5895	5983	6073	6164	6256	6350	6445	6542	6640	5654	5733	5813	5895	5983	6073	6164	6256	6350	6445	6542	6640	4874	4942	5011	5082	5158	5235	5314	5393	5474	5556	5640	5724	18	18	18	18	19	19	19	19	20	20	20	21
+emissions	Included	Stationary Energy	Municipal	Local	Electricity	Council buildings and facilities	549	1.7	0	473	MWh	549	557	565	573	581	590	599	608	617	626	635	645	549	557	565	573	581	590	599	608	617	626	635	645	473	480	487	494	501	508	516	524	532	540	548	556	2	2	2	2	2	2	2	2	2	2	2	2
+emissions	Included	Stationary Energy	Municipal	Local	Electricity	Street and traffic lighting	195	0.6	0	168	MWh	195	197	200	203	206	209	212	215	219	222	225	229	195	197	200	203	206	209	212	215	219	222	225	229	168	170	172	175	178	180	183	186	188	191	194	197	1	1	1	1	1	1	1	1	1	1	1	1
+emissions	Included	Stationary Energy	Municipal	Local	Electricity	Public Electric Vehicle charging	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Municipal	Local	Gas (mains)	Council buildings and facilities	67	1.2	0	1	TJ	67	67	68	69	70	71	73	74	75	76	77	78	67	67	68	69	70	71	73	74	75	76	77	78	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+emissions	Included	Stationary Energy	Municipal	Local	Gas (bottled)	Council buildings and facilities	0	0	0	0	TJ	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Municipal	Local	Diesel	"Machinery, plant and equipment"	0	0	0	0	kL	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Municipal	Local	Solar	Renewable electricity consumed on site	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Municipal	Local	Solar	Renewable electricity exported to grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Stationary Energy	Municipal	Local	Solar	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-567	-567	-567	-4415	-4415	-4415	-4415	-4415	-4415	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	2	14	14	14	14	14	14
+emissions	Included	Stationary Energy	Municipal	Local	Wind	Renewable electricity imported from grid	0	3.1	1009	870	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-4132	-4132	-4132	-4132	-4132	-4132	870	870	870	870	870	870	870	870	870	870	870	870	3	3	3	3	3	3	16	16	16	16	16	16
+emissions	Included	Stationary Energy	Municipal	Local	Biomass	Renewable electricity imported from grid	0	0	0	0	MWh	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-26	-26	-26	-1044	-1044	-1044	-1044	-1044	-1044	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	3	3	3	3	3
+emissions	Included	Transport	Residential	Local	Petrol	Travel by Passenger Vehicle	28727	391.9	0	11459	kL	28727	29129	29537	29951	30400	30856	31319	31788	32265	32749	33240	33739	28727	28958	29168	29297	29286	29025	28476	27268	24528	20610	17749	15916	11459	11620	11782	11947	12127	12309	12493	12681	12871	13064	13260	13459	392	395	398	400	399	396	389	375	345	301	269	248
+emissions	Included	Transport	Residential	Local	Petrol	Travel by Campervan	16	0.2	0	7	kL	16	17	17	17	17	18	18	18	19	19	19	19	16	17	17	17	17	18	18	18	19	19	19	19	7	7	7	7	7	7	7	7	7	8	8	8	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Transport	Residential	Local	Petrol	Travel by Motorcycle	215	2.9		86	kL	215	218	221	224	227	231	234	238	241	245	249	252	215	218	221	224	227	231	234	238	241	245	249	252	86	87	88	89	91	92	93	95	96	98	99	101	3	3	3	3	3	3	3	3	3	3	3	3
+emissions	Included	Transport	Residential	Local	Diesel	Travel by Passenger Vehicle	4186	56.5	0	1463	kL	4186	4244	4304	4364	4429	4496	4563	4632	4701	4772	4843	4916	4186	4218	4247	4265	4262	4222	4139	3956	3542	2951	2519	2240	1463	1484	1505	1526	1549	1572	1595	1619	1644	1668	1693	1719	57	57	57	58	58	57	56	54	49	42	38	35
+emissions	Included	Transport	Residential	Local	LPG	Travel by Passenger Vehicle	1819	28.3	0	1102	kL	1819	1844	1870	1896	1925	1954	1983	2013	2043	2073	2104	2136	1819	1827	1833	1833	1825	1801	1758	1673	1491	1234	1044	919	1102	1118	1133	1149	1166	1184	1202	1220	1238	1257	1275	1295	28	29	29	29	29	28	28	27	25	22	20	19
+emissions	Included	Transport	Commercial	Local	Petrol	Travel by Passenger Vehicle	5181	70.7	0	2067	kL	5181	5254	5328	5402	5483	5565	5649	5734	5820	5907	5996	6085	5181	5228	5273	5316	5353	5353	5229	4733	3468	1626	256	-646	2067	2096	2125	2155	2187	2220	2253	2287	2321	2356	2392	2428	71	71	72	73	73	73	72	66	51	30	14	4
+emissions	Included	Transport	Commercial	Local	Petrol	Travel by Light Commercial Vehicle and non-Freight Trucks	7651	104.4	0	3052	kL	7651	7758	7867	7977	8097	8218	8341	8467	8594	8722	8853	8986	7651	7734	7818	7902	7991	8071	8120	8073	7828	7435	7164	7015	3052	3095	3138	3182	3230	3278	3327	3377	3428	3479	3532	3585	104	106	107	108	109	110	111	111	108	104	101	99
+emissions	Included	Transport	Commercial	Local	Diesel	Travel by Passenger Vehicle	755	10.2	0	264	kL	755	766	776	787	799	811	823	835	848	861	874	887	755	761	768	774	779	778	759	684	494	217	10	-126	264	268	271	275	279	284	288	292	296	301	305	310	10	10	10	10	11	11	10	9	7	4	2	0
+emissions	Included	Transport	Commercial	Local	Diesel	Travel by Light Commercial Vehicle and non-Freight Trucks	9522	128.5	0	3329	kL	9522	9656	9791	9928	10077	10228	10381	10537	10695	10856	11018	11184	9522	9607	9678	9696	9614	9401	9136	8857	8434	7880	7501	7279	3329	3376	3423	3471	3523	3576	3630	3684	3739	3795	3852	3910	129	130	131	133	134	136	137	136	133	127	124	122
+emissions	Included	Transport	Commercial	Local	Diesel	Travel by Rigid and Articulated Trucks	16498	222.6	0	5768	kL	16498	16729	16963	17201	17459	17721	17987	18256	18530	18808	19090	19377	16498	16604	16691	16711	16617	16372	16111	15979	15973	16034	16121	16214	5768	5849	5931	6014	6104	6196	6288	6383	6479	6576	6674	6774	223	224	226	228	230	232	234	236	237	239	241	243
+emissions	Included	Transport	Commercial	Local	Diesel	Travel by Bus	139	1.9	0	49	kL	139	141	143	145	147	149	151	154	156	158	161	163	139	141	143	145	147	149	151	154	156	158	161	163	49	49	50	51	51	52	53	54	55	55	56	57	2	2	2	2	2	2	2	2	2	2	2	2
+emissions	Included	Transport	Commercial	Local	LPG	Travel by Passenger Vehicle	328	5.1	0	199	kL	328	333	337	342	347	352	358	363	368	374	380	385	328	330	331	333	334	332	323	290	209	90	2	-57	199	202	204	207	210	214	217	220	223	227	230	234	5	5	5	5	5	5	5	5	4	2	1	1
+emissions	Included	Transport	Commercial	Local	LPG	Travel by Light Commercial Vehicle and non-Freight Trucks	1197	18.7	0	726	kL	1197	1214	1231	1248	1267	1286	1305	1325	1345	1365	1386	1406	1197	1210	1224	1237	1251	1263	1271	1264	1225	1164	1121	1098	726	736	746	757	768	780	791	803	815	827	840	852	19	19	19	19	20	20	20	20	20	19	18	18
+emissions	Included	Transport	Industrial	Local	Petrol	Travel by Passenger Vehicle	1146	15.6	0	457	kL	1146	1162	1178	1195	1213	1231	1249	1268	1287	1306	1326	1346	1146	1156	1166	1176	1184	1184	1156	1047	767	360	57	-143	457	464	470	477	484	491	498	506	513	521	529	537	16	16	16	16	16	16	16	15	11	7	3	1
+emissions	Included	Transport	Industrial	Local	Petrol	Travel by Light Commercial Vehicle and non-Freight Trucks	1692	23.1	0	675	kL	1692	1716	1740	1764	1791	1817	1845	1872	1900	1929	1958	1987	1692	1711	1729	1747	1767	1785	1796	1785	1731	1644	1584	1551	675	684	694	704	714	725	736	747	758	769	781	793	23	23	24	24	24	24	25	24	24	23	22	22
+emissions	Included	Transport	Industrial	Local	Diesel	Travel by Passenger Vehicle	167	2.3	0	58	kL	167	169	172	174	177	179	182	185	188	190	193	196	167	168	170	171	172	172	168	151	109	48	2	-28	58	59	60	61	62	63	64	65	66	67	68	69	2	2	2	2	2	2	2	2	2	1	0	0
+emissions	Included	Transport	Industrial	Local	Diesel	Travel by Light Commercial Vehicle and non-Freight Trucks	2106	28.4	0	736	kL	2106	2135	2165	2196	2229	2262	2296	2330	2365	2401	2437	2473	2106	2125	2140	2144	2126	2079	2020	1959	1865	1743	1659	1610	736	747	757	768	779	791	803	815	827	839	852	865	28	29	29	29	30	30	30	30	29	28	27	27
+emissions	Included	Transport	Industrial	Local	Diesel	Travel by Rigid and Articulated Trucks	3649	49.2	0	1276	kL	3649	3700	3752	3804	3861	3919	3978	4037	4098	4160	4222	4285	3649	3672	3691	3696	3675	3621	3563	3534	3533	3546	3565	3586	1276	1293	1312	1330	1350	1370	1391	1412	1433	1454	1476	1498	49	50	50	50	51	51	52	52	53	53	53	54
+emissions	Included	Transport	Industrial	Local	LPG	Travel by Passenger Vehicle	73	1.1	0	44	kL	73	74	75	76	77	78	79	80	81	83	84	85	73	73	73	74	74	73	71	64	46	20	0	-13	44	45	45	46	47	47	48	49	49	50	51	52	1	1	1	1	1	1	1	1	1	1	0	0
+emissions	Included	Transport	Industrial	Local	LPG	Travel by Light Commercial Vehicle and non-Freight Trucks	265	4.1	0	161	kL	265	269	272	276	280	284	289	293	297	302	306	311	265	268	271	273	277	279	281	279	271	257	248	243	161	163	165	167	170	172	175	178	180	183	186	189	4	4	4	4	4	4	4	4	4	4	4	4
+emissions	Included	Transport	Municipal	Local	Petrol	Travel by Passenger Vehicle	46	0.6	0	18	kL	46	47	47	48	49	49	50	51	52	52	53	54	46	46	45	45	44	43	40	32	13	-13	-34	-48	18	19	19	19	19	20	20	20	21	21	21	22	1	1	1	1	1	1	1	1	0	0	0	-1
+emissions	Included	Transport	Municipal	Local	Petrol	Travel by Bus	0	0	0	0	kL	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Transport	Municipal	Local	Diesel	Travel by Passenger Vehicle	165	2.2	0	58	kL	165	167	170	172	175	177	180	183	185	188	191	194	165	167	169	172	174	176	178	180	180	178	178	178	58	58	59	60	61	62	63	64	65	66	67	68	2	2	2	2	2	2	2	2	2	2	2	2
+emissions	Included	Transport	Municipal	Local	Diesel	Travel by Bus	0	0	0	0	kL	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Transport	Municipal	Local	Diesel	Off-road vehicles and non-transport equipment	391	5.3	0	137	kL	391	396	402	408	414	420	426	433	439	446	452	459	391	396	402	408	414	420	426	433	439	446	452	459	137	139	141	143	145	147	149	151	154	156	158	161	5	5	5	6	6	6	6	6	6	6	6	6
+emissions	Included	Transport	Farming	Local	Diesel	Off-road vehicles and non-transport equipment	1396	18.9	0	582	kL	1396	1416	1435	1455	1477	1499	1522	1545	1568	1591	1615	1640	1396	1416	1435	1455	1477	1499	1522	1545	1568	1591	1615	1640	582	590	598	607	616	625	634	644	654	663	673	683	19	19	19	20	20	20	21	21	21	22	22	22
+emissions	Excluded	Transport	Residential	Visitor	Petrol	Travel by Passenger Vehicle	35706	512.3	0	14979	kL	35706	36599	37514	38451	39413	40398	41408	42443	43504	44592	45707	46849	35706	36599	37514	38451	39413	40398	41408	42443	43504	44592	45707	46849	14979	15353	15737	16131	16534	16947	17371	17805	18250	18707	19174	19654	512	525	538	552	566	580	594	609	624	640	656	672
+emissions	Excluded	Transport	Residential	Visitor	Diesel	Travel by Passenger Vehicle	9537	135.3	0	3504	kL	9537	9775	10020	10270	10527	10790	11060	11336	11620	11910	12208	12513	9537	9775	10020	10270	10527	10790	11060	11336	11620	11910	12208	12513	3504	3592	3682	3774	3868	3965	4064	4166	4270	4377	4486	4598	135	139	142	146	149	153	157	161	165	169	173	178
+emissions	Excluded	Transport	Residential	Visitor	Aviation Fuel	Travel by Airplane	31324	467.2	0	31324	kL	31324	32107	32910	33733	34576	35440	36326	37234	38165	39119	40097	41100	31324	32107	32910	33733	34576	35440	36326	37234	38165	39119	40097	41100	31324	32107	32909	33732	34575	35440	36326	37234	38165	39119	40097	41099	467	479	491	503	516	529	542	555	569	584	598	613
+emissions	Included	Waste	Residential	Local	Landfill waste	Municipal Solid Waste (MSW)	2854	0	0	2038	tonnes of waste	2854	2894	2934	2975	3020	3065	3111	3158	3205	3253	3302	3351	2854	2532	2181	1753	1190	472	-272	-902	-1424	-1897	-2359	-2830	2038	2067	2096	2125	2157	2189	2222	2255	2289	2324	2358	2394	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Residential	Local	Landfill waste	Construction and Demolition (C&D) Waste	256	0	0	"1,279"	tonnes of waste	256	259	263	267	271	275	279	283	287	292	296	300	256	259	263	267	271	275	279	283	287	292	296	300	1279	1297	1315	1333	1353	1374	1394	1415	1436	1458	1480	1502	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Residential	Visitor	Landfill waste	Municipal Solid Waste (MSW)	551	0	0	394	tonnes of waste	551	565	579	594	608	624	639	655	672	688	706	723	551	565	579	594	608	624	639	655	672	688	706	723	394	404	414	424	435	445	457	468	480	492	504	517	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Commercial	Local	Landfill waste	Commercial and Industrial (C&I) Waste	1650	0	0	"1,375"	tonnes of waste	1650	1683	1716	1750	1786	1821	1858	1895	1933	1971	2011	2051	1650	1675	1694	1692	1645	1548	1446	1390	1378	1389	1411	1436	1375	1402	1430	1459	1488	1518	1548	1579	1611	1643	1676	1709	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Commercial	Visitor	Landfill waste	Commercial and Industrial (C&I) Waste	319	0	0	266	tonnes of waste	319	327	335	343	352	361	370	379	388	398	408	418	319	325	330	332	324	306	288	278	277	280	286	293	266	272	279	286	293	300	308	316	324	332	340	348	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Commercial	Local	Landfill waste	Construction and Demolition (C&D) Waste	9	0	0	46	tonnes of waste	9	9	10	10	10	10	10	11	11	11	11	11	9	9	10	10	10	10	10	11	11	11	11	11	46	47	48	49	50	51	52	53	54	55	56	57	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Industrial	Local	Landfill waste	Commercial and Industrial (C&I) Waste	435	0	0	363	tonnes of waste	435	444	453	462	471	481	490	500	510	520	531	541	435	442	447	446	434	408	382	367	364	367	372	379	363	370	377	385	393	400	408	417	425	433	442	451	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Industrial	Local	Landfill waste	Construction and Demolition (C&D) Waste	2	0	0	10	tonnes of waste	2	2	2	2	2	2	2	2	2	2	2	3	2	2	2	2	2	2	2	2	2	2	2	3	10	10	11	11	11	11	11	12	12	12	12	13	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Residential	Local	Waste Water	Disposal of waste water	1510	0	0	327125	kg organic material (BOD)	1510	1531	1552	1574	1597	1621	1646	1670	1695	1721	1747	1773	1510	1391	1270	1145	1017	884	748	607	462	313	159	0	327125	331704	336348	341057	346173	351366	356636	361986	367415	372927	378521	384198	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Residential	Visitor	Waste Water	Disposal of waste water	292	0	0	63192	kg organic material (BOD)	292	296	300	304	309	313	318	323	328	332	337	342	292	269	245	221	196	171	145	117	89	60	31	0	63192	64077	64974	65884	66872	67875	68893	69927	70975	72040	73121	74218	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Commercial	Local	Waste Water	Disposal of waste water	189	0	0	40949	kg organic material (BOD)	189	193	197	201	205	209	213	217	221	226	230	235	189	175	161	146	130	114	97	79	60	41	21	0	40949	41768	42603	43455	44324	45211	46115	47037	47978	48937	49916	50915	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Waste	Industrial	Local	Waste Water	Disposal of waste water	0	0	0	0	kg organic material (BOD)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Agriculture	Farming	Local	Cropping	Crop production: Cereal Crops	4979	0	0	"16,406"	kg of crops	4979	4979	4979	4979	4979	4979	4979	4979	4979	4979	4979	4979	4979	4961	4930	4850	4676	4401	4126	3953	3873	3842	3830	3824	16406	16406	16406	16406	16406	16406	16406	16406	16406	16406	16406	16406	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Agriculture	Farming	Local	Cropping	Crop production: Non-Cereal Crops	2062	0	0	"5,278"	kg of crops	2062	2062	2062	2062	2062	2062	2062	2062	2062	2062	2062	2062	2062	2055	2042	2008	1937	1823	1709	1637	1604	1591	1586	1584	5278	5278	5278	5278	5278	5278	5278	5278	5278	5278	5278	5278	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Agriculture	Farming	Local	Cropping	Crop production: Vegetables	747	0	0	"31,394"	kg of vegetables	747	747	747	747	747	747	747	747	747	747	747	747	747	744	740	728	702	660	619	593	581	576	575	574	31394	31394	31394	31394	31394	31394	31394	31394	31394	31394	31394	31394	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Agriculture	Farming	Local	Grazing	Soil related emissions (all livestock)	37011	0	0	"81,175"	hectares	37011	37011	37011	37011	37011	37011	37011	37011	37011	37011	37011	37011	37011	36876	36643	36050	34761	32717	30674	29385	28792	28558	28472	28424	81175	81175	81175	81175	81175	81175	81175	81175	81175	81175	81175	81175	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Agriculture	Farming	Local	Grazing	Livestock direct animal emissions: cattle	21476	0	0	"16,106"	animals	21476	21476	21476	21476	21476	21476	21476	21476	21476	21476	21476	21476	21476	21387	21231	20836	19978	18616	17255	16397	16001	15846	15789	15757	16106	16106	16106	16106	16106	16106	16106	16106	16106	16106	16106	16106	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Agriculture	Farming	Local	Grazing	Livestock direct animal emissions: dairy	9260	0	0	"3,984"	animals	9260	9260	9260	9260	9260	9260	9260	9260	9260	9260	9260	9260	9260	9257	9251	9236	9204	9153	9101	9069	9054	9049	9046	9045	3984	3984	3984	3984	3984	3984	3984	3984	3984	3984	3984	3984	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Agriculture	Farming	Local	Grazing	Livestock direct animal emissions: pigs	785	0	0	"22,984"	animals	785	785	785	785	785	785	785	785	785	785	785	785	785	785	784	783	780	776	772	769	768	767	767	767	22984	22984	22984	22984	22984	22984	22984	22984	22984	22984	22984	22984	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Agriculture	Farming	Local	Grazing	Livestock direct animal emissions: sheep	28974	0	0	"185,905"	animals	28974	28974	28974	28974	28974	28974	28974	28974	28974	28974	28974	28974	28974	28963	28945	28899	28798	28638	28478	28377	28331	28312	28306	28302	185905	185905	185905	185905	185905	185905	185905	185905	185905	185905	185905	185905	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Agriculture	Farming	Local	Emissions capture	Soil carbon sequestration	0	0	0	0	hectares	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Agriculture	Farming	Local	Emissions capture	Capture of animal emissions	0	0	0	0	animals	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Land use	Municipal	Local	Forestry	Forest regrowth	-50551	0	50551	"2,754"	hectares	-50551	-50551	-50551	-50551	-50551	-50551	-50551	-50551	-50551	-50551	-50551	-50551	-27573	-27963	-28642	-30367	-34113	-40056	-45999	-49746	-51471	-52149	-52399	-52539	2754	2754	2754	2754	2754	2754	2754	2754	2754	2754	2754	2754	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Land use	Municipal	Local	Land use (change)	Primary land conversion	5242	0	0	20	hectares	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	5242	20	20	20	20	20	20	20	20	20	20	20	20	0	0	0	0	0	0	0	0	0	0	0	0
+emissions	Included	Land use	Municipal	Local	Land use (change)	Reclearing land	17295	0	0	"9,800"	hectares	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	17295	9800	9800	9800	9800	9800	9800	9800	9800	9800	9800	9800	9800	0	0	0	0	0	0	0	0	0	0	0	0
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											
+																																																											

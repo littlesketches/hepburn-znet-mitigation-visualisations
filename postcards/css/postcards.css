@@ -1,0 +1,285 @@
+	:root {
+	--back-color: #FFF;
+	--fore-color: #2e2e2e;
+	--accent-color: #26ECFF;
+	}
+
+	@font-face {
+	  font-family: AmericanTypewriter;
+	  src: url(../fonts/AmericanTypewriter.ttf); 
+	}
+	@font-face {
+	  font-family: AmericanTypewriter-Bold;
+	  src: url(../fonts/AmericanTypewriter-Bold.ttf); 
+	}
+	@font-face {
+	  font-family: distress;
+	  src: url(../fonts/Distress.ttf); 
+	}
+	@font-face {
+	  font-family: humor;
+	  src: url(../fonts/Humor-Sans.ttf); 
+	}
+
+	body{
+		font-family: 'AmericanTypewriter';		
+		font-size: 10px;		
+		color: 	#000;	
+		margin: 0;
+	}
+
+	.fill-green{
+		fill: #52be36;
+	}
+	.fill-lightGreen{
+		fill: #b5dc17;
+	}
+	.fill-darkGrey{
+		fill: #231f20;
+	}
+	.fill-lightGrey{
+		fill: #d3d2d2
+	}
+	.hide{
+		display:none;
+	}
+	.selector-label, #postcard-selector{
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   		font-weight: 300;	
+	}
+
+	.context-description, #text-shire-facts{
+		font-family: 'AmericanTypewriter';		
+		font-size: 8.75px;			
+		white-space: pre;
+	}
+
+	#context-mainTitle{
+		font-family: 'AmericanTypewriter';		
+		font-size: 28px;∂
+	}
+	#context-subTitle{
+		font-family: 'AmericanTypewriter';		
+		font-size: 18px;
+	}
+
+	.context-header{
+		font-family: 'AmericanTypewriter-Bold';		
+		font-size: 12.5px;
+	}
+	.context-label{
+		font-family: 'AmericanTypewriter-Bold';	
+		font-size: 8.75px;						
+	}
+
+	.context-data, #elecChart-titles, .elecData-shire-data{
+		text-anchor: end;		
+	}
+
+	.elecData-shire-data{
+		font-size: 7.5px;		
+	}
+	.context-notes{
+		font-size: 6.5px;	
+	}
+	.context-data{
+		font-size: 6px;	
+	}
+
+	.sketchChart{
+		font-family: 'humor';		
+		font-size: 5px;
+	}
+	.sketchChart-label-large{
+		font-size: 10px;
+	}	
+	.sketchChart-label{
+		font-size: 6.5px;
+	}
+	.sketchChart-label-small{
+		font-size: 5.65px;
+	}
+	.sketchChart-label-tiny{
+		font-size: 4.4px;
+	}
+
+	.align-middle{
+		text-anchor: middle;
+	}
+	.align-end{
+		text-anchor: end;
+	}
+	.align-start{
+		text-anchor: start;
+	}
+
+	.sketchChart-title{
+		font-size: 7.5px;	
+		text-anchor: middle;
+	}
+	.sketchChart-title-large{
+		font-size: 11px;	
+		text-anchor: middle;
+	}
+
+	#chart-titles{
+		font-family: 'AmericanTypewriter-Bold';		
+		font-size: 6.5px;
+	}
+	.context-bar-line{
+		fill: none;
+		stroke: #000;
+		stroke-width: 1px;
+	}
+	.context-bar-line-filled{
+		fill: rgba(255,255,255,0.7);
+		stroke: #000;
+		stroke-width: 1px;
+	}
+	.context-bar-line-dashed{
+		fill: none;
+		stroke: #000;
+		stroke-width: 0.5px;
+		stroke-dasharray: 1.5 1.5;
+	}
+	.context-chart-line-thick{
+		fill: none;
+		stroke: #000;
+		stroke-width: 1.5px;
+	}
+
+
+	.context-map{
+			fill: rgba(255,255,255,0.6);
+			stroke: #000;
+			stroke-width: 1px;
+	}
+	.map-leaders{
+			fill: none;
+			stroke: #000;
+			stroke-width: 1.25px;
+			stroke-dasharray: 1.25 2.5;
+	}
+	.text-town{
+		font-family: 'humor';
+		font-size: 9px;
+	}
+
+	#map-renewablesLabel-group{
+		fill: "#b5dc17";
+		opacity: 0.9; 
+	}
+
+	.context-elec-renewableMain{	
+		font-family: 'distress' ;		
+		font-size: 45px;
+	}
+
+	.context-elec-renewableMinor{	
+		font-family: 'distress' ;		
+		font-size: 18.75px;
+	}
+	.context-elec-decimal{
+		font-family: sans-serif;
+		font-size: 45px;
+	}	
+	.context-elec-renewablePct{
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 15px;
+	}	
+	.context-elec-renewableLabel{
+		font-family: 'distress' ;		
+		font-size: 8.75px;
+	}
+
+	.option-stamp{	
+		font-family: 'distress' ;		
+		font-size: 45px;
+		text-anchor: middle;
+	}
+
+	#contribution-group{
+		font-family: 'distress' ;	
+		opacity: 0.95;
+		white-space: pre;	
+	}
+
+	#contribution-headline-large{
+		font-size: 55px;
+		white-space: pre;
+	}
+	#contribution-headline-small-1, #contribution-headline-small-2, #contribution-headline-small-3{
+		font-size: 20px;
+	}
+	#contribution-topline, #contribution-baseline-1, #contribution-baseline-2 {
+		font-size: 14px;
+	}
+
+	#contribution-pct{
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+	}	
+
+
+	#vis{
+	    background: url('../img/vintage.jpg');
+		background-size: cover;	
+		max-height: 100vh;
+	}
+	#background-overlay{
+
+	}
+
+	.text{
+		white-space: pre;
+	}
+
+	.line{
+		fill: none;
+		stroke: #000;
+		stroke-width: 1px;
+	}
+
+	.label{
+		font-family: 'AmericanTypewriter-Bold';
+		font-weight: bold;		
+		font-size: 16px;
+		text-anchor: middle;
+	}
+	.stamp-bg-text{
+		text-anchor: middle;
+		opacity: 0.5;
+	}
+
+	#subTitle{
+		font-size: 18px;
+	}
+	#mainTitle{
+		font-size: 36px;
+	}
+	.stampMain{
+
+	}
+
+	.stroke1px{
+		stroke: #000;
+		stroke-width: 1px;;
+		fill: none
+	}
+	.dashed{
+		stroke-dasharray: 2.7 2.7
+		stroke-width: 0.25px;
+	}
+
+	.drawing-group, .circle-fill{
+		display: none;
+	}
+
+	.map-line{
+		fill: #000;
+		stroke: #000;
+		stroke-width: 0.2px;
+		opacity: 0.3;
+	}

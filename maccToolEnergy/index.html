@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pangolin|Reenie+Beanie" rel="stylesheet">  
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="js/tabletop.min.js"></script>    
+  <script src="js/macc.js"></script>    
+
+  <meta name="author" content="little sketches">
+  <link rel="stylesheet" href="css/macc.css">
+</head>
+
+<body>
+  <div id = "title-container">
+    <h1 class = "main-header">Comparing Options to Transition to Zero Net Energy</h1>
+    <p id = "sub-header" class = "sub-header">An Energy Abatement Cost Curve for Hepburn Shire</p>
+    <!-- <p class = "sub-header">An illustration the cost and contribution of different transition options</p> -->
+  </div>
+  <div class = "svg-container">
+    <svg id = "vis" width="100%">
+    </svg>
+  </div>
+  <div id = "headerRow" class = "nav">
+    <p class = "selector-label">Render mode: 
+      <select id = "macc-selector" onchange="reRender()">
+        <option value = "crisp">Crisp</option>
+        <option value = "pencil">Pencil sketch</option>
+        <option value = "scribble" >Scribble</option>
+        <option value = "messy">Messy</option>
+      </select>
+    </p>
+    <p style = "text-align: right ; padding-right: 1rem"><a href="../maccTool/">See the emissions MACC</a></p>    
+  </div>
+
+
+
+  <script src="js/d3.sketchyMaster.js"></script>
+
+</body>

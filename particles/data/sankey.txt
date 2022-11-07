@@ -1,0 +1,124 @@
+annotation	linkLevel	source	target	emissions	energy																				
+An experimental 'particle sankey diagram' to illustrate how the breakdown of emissions in Hepburn Shire (		Birch	Visitor	2481	15																				
+"k tonnes of carbon per year) are connected between: place, people, and parts of the economy that produce emissions. Feel free to move nodes around to get a clearer view of things. You can hover on nodes and links to reveal a bit of extra data, and click the '>' to see the energy view. Maybe more fun stuff to come...."		Cameron	Visitor	2630	16																				
+"An experimental 'particle sankey diagram' to illustrate how the breakdown of energy use in Hepburn Shire ("""		Coliban	Visitor	829	5																				
+"TeraJoules of energy used every year) in Hepburn Shire are connected between: place, people, and parts of the economy (i.e. what we do) that produce emissions. Feel free to move nodes around to get a clearer view of things. You can hover on nodes and links to reveal a bit of extra data, and click the '>' to see the emissions view. Maybe more fun stuff to come...."		Creswick	Visitor	2191	14																				
+		Holcombe	Visitor	918	6																				
+		Birch	Local	83235	515																				
+		Cameron	Local	88235	546																				
+		Coliban	Local	27793	172																				
+		Creswick	Local	73503	455																				
+	Places: Shire Wards	Holcombe	Local	30776	191																				
+		Visitor	Residential	8731	77																				
+		Visitor	Municipal	0	0																				
+		Visitor	Commercial	319	0																				
+		Visitor	Industrial	0	0																				
+		Local	Residential	80412	908																				
+		Local	Municipal	29603	32																				
+		Local	Commercial	68360	710																				
+		Local	Industrial	11540	133																				
+	People: Shire folk	Local	Farming	113627	74																				
+		Local	Land sector	0	0																				
+		Residential	Stationary Energy	48739	505																				
+		Residential	Transport	34963	480																				
+		Residential	Waste	5442	0																				
+		Commercial	Stationary Energy	25242	148																				
+		Commercial	Transport	41272	562																				
+		Commercial	Waste	2164	0																				
+		Industrial	Stationary Energy	2006	9																				
+		Industrial	Transport	9097	124																				
+		Industrial	Waste	437	0																				
+		Farming	Stationary Energy	5906	55																				
+		Farming	Transport	1396	19																				
+		Farming	Waste	0	0																				
+		Farming	Agriculture	106325	0																				
+		Municipal	Stationary Energy	6464	24																				
+		Municipal	Transport	602	8																				
+		Municipal	Waste	0	0																				
+		Municipal	"Land use, land use change and forestry"	22537	0																				
+	Parts of the economy	Stationary Energy	Wood	210	162																				
+		Stationary Energy	Gas (bottled)	1767	28																				
+		Stationary Energy	Gas (mains)	12246	220																				
+		Stationary Energy	Electricity	70715	219																				
+		Stationary Energy	Solar	0	28																				
+		Stationary Energy	Wind	0	39																				
+		Stationary Energy	Diesel	3419	46																				
+		Transport	Petrol	44675	609																				
+		Transport	Diesel	38974	526																				
+		Transport	LPG	3682	57																				
+		Transport	Aviation Fuel	0	0																				
+		Waste	Landfill waste	6075	0																				
+		Waste	Waste Water	1968	0																				
+		Agriculture	Cropping	7788	0																				
+		Agriculture	Grazing	98537	0																				
+		"Land use, land use change and forestry"	Forestry	0	0																				
+	Emission Sectors	"Land use, land use change and forestry"	Land use (change)	22537	0																				
+		Electricity	Household Space Heating	1141	4																				
+		Electricity	Household Hot Water	11563	36																				
+		Electricity	Household Cooking	1008	3																				
+		Electricity	Household Appliances	16619	52																				
+		Electricity	Household Space Cooling	2933	9																				
+		Electricity	Household Lighting	5145	16																				
+		Electricity	Household Electric Vehicle Charging	0	0																				
+		Electricity	Commercial HVAC	8077	25																				
+		Electricity	Commercial Office Equipment and other misc.	2272	7																				
+		Electricity	Commercial Plant and equipment	676	2																				
+		Electricity	Commercial Cooking and hot water	3288	10																				
+		Electricity	Commercial Lighting (internal)	2091	6																				
+		Electricity	Commercial Lighting (external)	5035	16																				
+		Electricity	Industrial processes	1982	6																				
+	Emission Sources	Electricity	Agriculture activities	2487	8																				
+		Electricity	Other (unallocated)	5654	18																				
+		Electricity	Council buildings and facilities	549	2																				
+		Electricity	Street and traffic lighting	195	1																				
+		Electricity	Public Electric Vehicle charging	0	0																				
+		Gas (mains)	Household Space Heating	5452	98																				
+		Gas (mains)	Household Hot Water	1846	33																				
+		Gas (mains)	Household Cooking	1055	19																				
+		Gas (mains)	Commercial Cooking	1292	23																				
+		Gas (mains)	Commercial Heating	1751	32																				
+		Gas (mains)	Commercial Hot Water	760	14																				
+		Gas (mains)	Industrial processes	24	0																				
+		Gas (mains)	Council buildings and facilities	67	1																				
+		Gas (bottled)	Household Space Heating	416	6																				
+		Gas (bottled)	Household Hot Water	1163	18																				
+		Gas (bottled)	Household Cooking	188	3																				
+		Gas (bottled)	Commercial Cooking	0	0																				
+		Gas (bottled)	Commercial Heating	0	0																				
+		Gas (bottled)	Commercial Hot Water	0	0																				
+		Gas (bottled)	Industrial processes	0	0																				
+		Wood	Household Space Heating	210	162																				
+		Diesel	"Machinery, plant and equipment"	0	0																				
+		Diesel	Agriculture activities	3419	46																				
+		Solar	Renewable electricity consumed on site	0	0																				
+		Solar	Renewable electricity exported to grid	0	18																				
+		Wind	Renewable electricity imported from grid	0	39																				
+		Wind	Renewable electricity exported to grid	0	0																				
+		Petrol	Travel by Passenger Vehicle	35100	479																				
+		Petrol	Travel by Light Commercial Vehicle and non-Freight Trucks	9343	127																				
+		Petrol	Travel by Campervan	16	0																				
+		Petrol	Travel by Motorcycle	215	3																				
+		Petrol	Travel by Bus	0	0																				
+		Diesel	Travel by Passenger Vehicle	5273	71																				
+		Diesel	Travel by Light Commercial Vehicle and non-Freight Trucks	11628	157																				
+		Diesel	Travel by Rigid and Articulated Trucks	20147	272																				
+		Diesel	Travel by Bus	139	2																				
+		Diesel	Off-road vehicles and non-transport equipment	1787	24																				
+		LPG	Travel by Passenger Vehicle	2219	35																				
+		LPG	Travel by Light Commercial Vehicle and non-Freight Trucks	1462	23																				
+		Aviation Fuel	Travel by airplane	0	0																				
+		Landfill waste	Municipal Solid Waste (MSW)	3405	0																				
+		Landfill waste	Construction and Demolition (C&D) Waste	267	0																				
+		Landfill waste	Commercial and Industrial (C&I) Waste	2403	0																				
+		Waste Water	Disposal of waste water	1968	0																				
+		Cropping	Crop production: Cereal Crops	4979	0																				
+		Cropping	Crop production: Non-Cereal Crops	2062	0																				
+		Cropping	Crop production: Vegetables	747	0																				
+		Grazing	Soil related emissions (all livestock)	37232	0																				
+		Grazing	Livestock direct animal emissions: cattle	22286	0																				
+		Grazing	Livestock direct animal emissions: dairy	9260	0																				
+		Grazing	Livestock direct animal emissions: pigs	785	0																				
+		Grazing	Livestock direct animal emissions: sheep	28974	0																				
+		Forestry	Forest regrowth	0	0																				
+	Activities we can influence	Land use (change)	Primary land conversion	5242	0																				
+		Land use (change)	Reclearing land	17295	0	
